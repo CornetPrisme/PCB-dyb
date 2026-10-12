@@ -1,0 +1,1822 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "eef25175-4bda-42c9-8bea-d290637c7ae5")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xGxx:74AUC2G04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AUC2G04"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual NOT Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Dual Gate NOT LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SG-* SOT*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74AUC2G04_1_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G04_2_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G04_3_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AUC2G04_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74xGxx:74AUC2G08"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74AUC2G08"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual AND Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Dual Gate AND LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SSOP* VSSOP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74AUC2G08_1_1"
+				(arc
+					(start 0 5.08)
+					(mid 5.0579 0)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G08_2_1"
+				(arc
+					(start 0 5.08)
+					(mid 5.0579 0)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08) (xy -7.62 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74AUC2G08_3_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74AUC2G08_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 33.02 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07391159-14ef-416f-aaef-d35f43fa4eba")
+	)
+	(junction
+		(at 91.44 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13110fe6-b6be-46c5-9fe7-348097548142")
+	)
+	(junction
+		(at 69.85 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ec9986b-4740-4026-8875-5de14d4aef29")
+	)
+	(junction
+		(at 53.34 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69690430-b296-454e-b85b-12f46141fa98")
+	)
+	(junction
+		(at 16.51 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5017768-c59b-402c-86b9-2914be56f644")
+	)
+	(wire
+		(pts
+			(xy 69.85 22.86) (xy 80.01 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d667669-1b09-4835-a6aa-e060cb08d730")
+	)
+	(wire
+		(pts
+			(xy 24.13 135.89) (xy 24.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5b4492-37fc-426a-8135-32556584ca7b")
+	)
+	(wire
+		(pts
+			(xy 80.01 22.86) (xy 80.01 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666d5ef0-9d22-47c0-9718-5756b1a1dd43")
+	)
+	(wire
+		(pts
+			(xy 69.85 22.86) (xy 69.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792dcec5-f7f4-4463-89e0-5fa1837aea30")
+	)
+	(wire
+		(pts
+			(xy 43.18 135.89) (xy 43.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb5ca52-dcf8-4f9f-abef-8e1548a7fcd6")
+	)
+	(wire
+		(pts
+			(xy 33.02 22.86) (xy 43.18 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840fcb6c-6d9d-487b-982f-3d0a756eb4b2")
+	)
+	(wire
+		(pts
+			(xy 16.51 22.86) (xy 24.13 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d82a27b-0ac4-41ff-8c6c-59e43dbb4f2e")
+	)
+	(wire
+		(pts
+			(xy 91.44 22.86) (xy 91.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ee001b-a8c6-4f05-8b93-1f9268b2859e")
+	)
+	(wire
+		(pts
+			(xy 33.02 22.86) (xy 33.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d469137-e06d-4c9a-bed4-851b5c3eda2a")
+	)
+	(wire
+		(pts
+			(xy 53.34 20.32) (xy 53.34 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2206684-454c-4abd-8b96-2a482bb71766")
+	)
+	(wire
+		(pts
+			(xy 53.34 22.86) (xy 53.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a485a341-d6b0-4b82-8672-da4963e6a99d")
+	)
+	(wire
+		(pts
+			(xy 91.44 22.86) (xy 99.06 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67589a2-acf4-44ef-a209-771d58eb47ae")
+	)
+	(wire
+		(pts
+			(xy 69.85 20.32) (xy 69.85 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84567a3-2219-48a2-a37b-4c80563d39cf")
+	)
+	(wire
+		(pts
+			(xy 60.96 22.86) (xy 60.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be61e3fc-6a6f-4ba5-a50f-d94a47954ea2")
+	)
+	(wire
+		(pts
+			(xy 99.06 135.89) (xy 99.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15f222b-4574-4127-a18c-f27d5575f7d5")
+	)
+	(wire
+		(pts
+			(xy 62.23 135.89) (xy 60.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2be8ef6-dcf3-427e-bf21-19f89153f267")
+	)
+	(wire
+		(pts
+			(xy 24.13 22.86) (xy 24.13 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ccd8f7-8fe4-47dd-bbd6-923a58e6b40d")
+	)
+	(wire
+		(pts
+			(xy 16.51 22.86) (xy 16.51 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb32c6ae-9da3-4a37-809d-e076913d5bf5")
+	)
+	(wire
+		(pts
+			(xy 33.02 20.32) (xy 33.02 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba1b555-71a0-4e54-8b6a-61f39a11375f")
+	)
+	(wire
+		(pts
+			(xy 91.44 20.32) (xy 91.44 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0172f39-a856-4657-a004-3ab4fb0e3468")
+	)
+	(wire
+		(pts
+			(xy 53.34 22.86) (xy 60.96 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2791b25-662f-459a-83c0-3d94ccbf487f")
+	)
+	(wire
+		(pts
+			(xy 43.18 22.86) (xy 43.18 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e92b2a4a-5b58-4894-8a3e-c6cf1f760cee")
+	)
+	(wire
+		(pts
+			(xy 16.51 20.32) (xy 16.51 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10bd566-4f37-4ca0-a504-05520b6ef46a")
+	)
+	(wire
+		(pts
+			(xy 80.01 135.89) (xy 80.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66a9388-a423-445d-b76a-223b96b3e714")
+	)
+	(wire
+		(pts
+			(xy 99.06 22.86) (xy 99.06 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6a5a02-abed-43fa-b727-3898bccf86eb")
+	)
+	(global_label "B3-N"
+		(shape input)
+		(at 43.18 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12ad5c8f-9b53-45ca-a9e9-1448f1588fe6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 144.2576 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "A3"
+		(shape input)
+		(at 16.51 20.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e6fcaf0-097d-4243-a2d1-60f68ffb9f01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.51 15.0367 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C3-N"
+		(shape input)
+		(at 62.23 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "568b4211-ea81-48c4-8532-115f688dad9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 144.2576 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "B3"
+		(shape input)
+		(at 33.02 20.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7318e542-92d1-450d-ac55-4d26eee62fca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 14.8553 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D3-N"
+		(shape input)
+		(at 80.01 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b089cad-f5a4-4303-894f-2e5d418d6fb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 144.2576 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "E3"
+		(shape input)
+		(at 91.44 20.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0e0f5e4-e1e4-4421-a10d-7d73879e7379")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.44 14.9763 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A3-N"
+		(shape input)
+		(at 24.13 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0f55e45-f00d-472c-88f8-a0c3381a5c03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.13 144.0762 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "E3-N"
+		(shape input)
+		(at 99.06 135.89 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfa17727-f77b-4064-bdc4-423bbc313f1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 144.1366 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape input)
+		(at 53.34 20.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5f0deec-35a7-41f6-bd67-7d580850c424")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.34 14.8553 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D3"
+		(shape input)
+		(at 69.85 20.32 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efc87e3b-c897-4117-a5c4-025ed7af8118")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 14.8553 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AUC2G04")
+		(at 24.13 43.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "223f54a3-0028-439d-83e3-bbf48f61ff3e")
+		(property "Reference" "U3"
+			(at 27.94 44.704 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AUC2G04"
+			(at 26.67 47.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 24.13 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NOT Gate, Low-Voltage CMOS"
+			(at 24.13 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16d7af6f-c4ff-4879-80ef-4a1a65b578e6")
+		)
+		(pin "6"
+			(uuid "1f03850e-65bf-46d1-814e-da57be77c92a")
+		)
+		(pin "3"
+			(uuid "96d8556e-705c-45e6-97a0-421ebb591f72")
+		)
+		(pin "4"
+			(uuid "4980b3c6-4df1-49ca-99da-89bc287b94f6")
+		)
+		(pin "2"
+			(uuid "6227b2c0-8215-4aed-8ccb-aa14972734e8")
+		)
+		(pin "5"
+			(uuid "09ad2a1f-a735-4d9d-a14c-138f89941d62")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/eef25175-4bda-42c9-8bea-d290637c7ae5"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AUC2G08")
+		(at 36.83 185.42 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22837826-b939-4597-98e5-c09df882294b")
+		(property "Reference" "U2"
+			(at 43.18 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AUC2G08"
+			(at 43.18 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 36.83 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual AND Gate, Low-Voltage CMOS"
+			(at 36.83 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "9c8bf6a2-e092-4a27-80a5-5635b05dfce1")
+		)
+		(pin "2"
+			(uuid "1f21c4c0-f616-4993-b67f-4cd24a6a065f")
+		)
+		(pin "1"
+			(uuid "0c39a8b0-7904-49c8-97c2-658f9bda07e8")
+		)
+		(pin "4"
+			(uuid "9a863b9b-9342-41d2-94a6-b6ef5f812cfb")
+		)
+		(pin "3"
+			(uuid "13cd9e61-ddb2-40c7-8c59-a0e4cbb8cf76")
+		)
+		(pin "6"
+			(uuid "ce162370-2455-4297-a4db-d34c2604e234")
+		)
+		(pin "5"
+			(uuid "5b3b30df-e423-4694-90c7-4529a96e9ef6")
+		)
+		(pin "8"
+			(uuid "3bdc8406-b2bd-4ded-bc9a-4e8304ed5545")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/eef25175-4bda-42c9-8bea-d290637c7ae5"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AUC2G04")
+		(at 80.01 43.18 270)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "306c9769-a5da-41d4-b5aa-d652282c3182")
+		(property "Reference" "U4"
+			(at 84.074 43.434 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AUC2G04"
+			(at 84.328 46.736 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 80.01 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NOT Gate, Low-Voltage CMOS"
+			(at 80.01 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16d7af6f-c4ff-4879-80ef-4a1a65b578e7")
+		)
+		(pin "6"
+			(uuid "1f03850e-65bf-46d1-814e-da57be77c92b")
+		)
+		(pin "3"
+			(uuid "da51e1b6-b848-4c6f-85be-31615eaf510a")
+		)
+		(pin "4"
+			(uuid "3472291f-9c30-43fc-a5ff-706947a24143")
+		)
+		(pin "2"
+			(uuid "6227b2c0-8215-4aed-8ccb-aa14972734e9")
+		)
+		(pin "5"
+			(uuid "09ad2a1f-a735-4d9d-a14c-138f89941d63")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/eef25175-4bda-42c9-8bea-d290637c7ae5"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AUC2G04")
+		(at 43.18 43.18 270)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "71b3c7e4-d8c4-43f2-a697-7c284ccdfc41")
+		(property "Reference" "U3"
+			(at 47.244 43.434 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AUC2G04"
+			(at 47.498 46.736 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NOT Gate, Low-Voltage CMOS"
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16d7af6f-c4ff-4879-80ef-4a1a65b578e6")
+		)
+		(pin "6"
+			(uuid "1f03850e-65bf-46d1-814e-da57be77c92a")
+		)
+		(pin "3"
+			(uuid "96d8556e-705c-45e6-97a0-421ebb591f72")
+		)
+		(pin "4"
+			(uuid "4980b3c6-4df1-49ca-99da-89bc287b94f6")
+		)
+		(pin "2"
+			(uuid "6227b2c0-8215-4aed-8ccb-aa14972734e8")
+		)
+		(pin "5"
+			(uuid "09ad2a1f-a735-4d9d-a14c-138f89941d62")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/eef25175-4bda-42c9-8bea-d290637c7ae5"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AUC2G04")
+		(at 50.8 185.42 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c9f839f-dc42-4bd5-964f-04bee0ab0e41")
+		(property "Reference" "U3"
+			(at 57.15 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AUC2G04"
+			(at 57.15 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 50.8 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NOT Gate, Low-Voltage CMOS"
+			(at 50.8 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c6d0bb4e-188c-4241-aadb-27345c72128c")
+		)
+		(pin "6"
+			(uuid "737ff9dd-df07-44c4-9fac-786ed2d5c940")
+		)
+		(pin "1"
+			(uuid "02a12d9c-2faa-4dd1-ab29-62fc54ff3a55")
+		)
+		(pin "4"
+			(uuid "20d8ad1b-ae5f-40e8-9b61-825dcb6f2e16")
+		)
+		(pin "2"
+			(uuid "718387f7-4917-4110-ac43-4f150ad64cba")
+		)
+		(pin "5"
+			(uuid "8b19e073-e509-486d-9711-7910257b03c3")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/eef25175-4bda-42c9-8bea-d290637c7ae5"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AUC2G04")
+		(at 60.96 43.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc1cbc5a-cc7a-4c26-b9b9-f22a49726c2e")
+		(property "Reference" "U4"
+			(at 64.77 44.704 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AUC2G04"
+			(at 63.5 47.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 60.96 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NOT Gate, Low-Voltage CMOS"
+			(at 60.96 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61134c47-bb58-4a2e-a3fa-659f998ba1f2")
+		)
+		(pin "6"
+			(uuid "2aed9c0f-56a5-4ee2-a77a-5d1583f73132")
+		)
+		(pin "3"
+			(uuid "96d8556e-705c-45e6-97a0-421ebb591f72")
+		)
+		(pin "4"
+			(uuid "4980b3c6-4df1-49ca-99da-89bc287b94f6")
+		)
+		(pin "2"
+			(uuid "6227b2c0-8215-4aed-8ccb-aa14972734e8")
+		)
+		(pin "5"
+			(uuid "09ad2a1f-a735-4d9d-a14c-138f89941d62")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/eef25175-4bda-42c9-8bea-d290637c7ae5"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AUC2G08")
+		(at 21.59 185.42 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e35b17de-6c25-4b30-aa86-617c1732455c")
+		(property "Reference" "U1"
+			(at 27.94 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AUC2G08"
+			(at 27.94 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 21.59 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual AND Gate, Low-Voltage CMOS"
+			(at 21.59 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93453d94-f4b4-4c85-b7a5-83e353434ea1")
+		)
+		(pin "4"
+			(uuid "77316861-f3e8-4183-85d9-ed3ff9d64e18")
+		)
+		(pin "3"
+			(uuid "097705a2-8dc2-4f55-9c41-ff1ff148484e")
+		)
+		(pin "6"
+			(uuid "1017c7a8-2d15-4b40-a0a0-758b93e01bf5")
+		)
+		(pin "5"
+			(uuid "a3b12b85-397c-469d-ade9-e957ccf4c7c4")
+		)
+		(pin "8"
+			(uuid "65286182-5383-41f9-abe9-ccfb6b782a3c")
+		)
+		(pin "7"
+			(uuid "e294d39a-5a0c-458a-b569-2f0dd0ecfbb3")
+		)
+		(pin "2"
+			(uuid "e8dad04d-6a8a-42d8-ab5f-bbfac9d831c9")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/eef25175-4bda-42c9-8bea-d290637c7ae5"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74AUC2G04")
+		(at 99.06 43.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f9b7e555-141b-4322-8001-cd1246198f2b")
+		(property "Reference" "U5"
+			(at 102.87 44.704 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74AUC2G04"
+			(at 101.6 47.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 99.06 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NOT Gate, Low-Voltage CMOS"
+			(at 99.06 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79e2f8f8-95f1-441a-b1b0-2a50bcdc27fc")
+		)
+		(pin "6"
+			(uuid "7d05f4a2-5001-4faa-917d-5832df8f5e37")
+		)
+		(pin "3"
+			(uuid "96d8556e-705c-45e6-97a0-421ebb591f72")
+		)
+		(pin "4"
+			(uuid "4980b3c6-4df1-49ca-99da-89bc287b94f6")
+		)
+		(pin "2"
+			(uuid "6227b2c0-8215-4aed-8ccb-aa14972734e8")
+		)
+		(pin "5"
+			(uuid "09ad2a1f-a735-4d9d-a14c-138f89941d62")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/eef25175-4bda-42c9-8bea-d290637c7ae5"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
