@@ -648,13 +648,21 @@
         "uuid": "14e8619a-6057-40b5-87f2-cdde3077dc07"
       }
     ],
-    "used_designators": "U1-11",
+    "used_designators": "U1-28",
     "variants": []
   },
   "sheets": [
     [
       "14e8619a-6057-40b5-87f2-cdde3077dc07",
       "Root"
+    ],
+    [
+      "42e06d7d-ba0c-431e-b1fb-5601e2589a5c",
+      "Adder Logic"
+    ],
+    [
+      "f33ac1a3-df7d-4c75-a9e6-03dbf1548336",
+      "Tens Logic"
     ]
   ],
   "text_variables": {},
