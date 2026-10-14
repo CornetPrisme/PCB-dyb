@@ -648,7 +648,7 @@
         "uuid": "14e8619a-6057-40b5-87f2-cdde3077dc07"
       }
     ],
-    "used_designators": "U1-28",
+    "used_designators": "U1-41",
     "variants": []
   },
   "sheets": [
@@ -663,6 +663,10 @@
     [
       "f33ac1a3-df7d-4c75-a9e6-03dbf1548336",
       "Tens Logic"
+    ],
+    [
+      "437bee23-179c-4ad3-bdf0-0866e4f50ea6",
+      "Units Logic"
     ]
   ],
   "text_variables": {},

@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 317.5 50.8)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "437bee23-179c-4ad3-bdf0-0866e4f50ea6")
+		(property "Sheetname" "Units Logic"
+			(at 317.5 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "units-logic.kicad_sch"
+			(at 317.5 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 317.5 25.4)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
