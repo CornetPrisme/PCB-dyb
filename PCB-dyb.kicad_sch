@@ -1845,6 +1845,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 41.91 49.53)
@@ -1857,6 +1972,18 @@
 			(type none)
 		)
 		(uuid "09251273-71d9-4c16-a7e3-770afbbb2e02")
+	)
+	(rectangle
+		(start 12.7 134.62)
+		(end 66.04 161.29)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "262daa91-0b9d-4cf9-bc7c-77b25b2cc7f8")
 	)
 	(rectangle
 		(start 12.7 162.56)
@@ -1917,6 +2044,18 @@
 		)
 		(uuid "5d710042-e080-4171-9e52-ac3401d6e305")
 	)
+	(text "protection"
+		(exclude_from_sim no)
+		(at 57.912 136.906 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "5fb9311d-80cf-4422-9611-0f21f1b89b25")
+	)
 	(text "LDO"
 		(exclude_from_sim no)
 		(at 62.738 164.846 0)
@@ -1942,6 +2081,24 @@
 		(uuid "fd333a92-7a13-4125-84f0-8e091bb181ff")
 	)
 	(junction
+		(at 90.17 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "212f402e-3fad-44a7-97c0-45748f95b37e")
+	)
+	(junction
+		(at 17.78 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27f9df3b-9124-4d3c-923c-8c684ac4ff42")
+	)
+	(junction
+		(at 107.95 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69e5bc06-50b9-455e-8d37-b17e722f975c")
+	)
+	(junction
 		(at 45.72 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1960,16 +2117,10 @@
 		(uuid "b14ebb42-368c-4036-bdf3-97f0e1701fe1")
 	)
 	(junction
-		(at 90.17 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6e673f8-8015-4429-b2a0-7e87fde21d3e")
-	)
-	(junction
 		(at 24.13 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb387047-9e10-4c91-9a6b-4289e6c2b4c3")
+		(uuid "be1d20da-276a-4134-9e18-a1fcdabb84c1")
 	)
 	(junction
 		(at 109.22 175.26)
@@ -1982,6 +2133,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2611c5b-b449-40ac-8fbe-7fd907c8f68c")
+	)
+	(junction
+		(at 90.17 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eabb0517-78ff-4774-98f4-44a63cabad3d")
 	)
 	(no_connect
 		(at 177.8 91.44)
@@ -1997,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 77.47) (xy 82.55 77.47)
+			(xy 77.47 77.47) (xy 91.44 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +2194,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 69.85) (xy 82.55 69.85)
+			(xy 67.31 69.85) (xy 91.44 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2057,16 +2214,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 92.71) (xy 91.44 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10d12d39-48c9-4cae-a746-8904e50881e6")
-	)
-	(wire
-		(pts
 			(xy 134.62 92.71) (xy 138.43 92.71)
 		)
 		(stroke
@@ -2077,7 +2224,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 96.52) (xy 82.55 96.52)
+			(xy 71.12 96.52) (xy 91.44 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2234,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 82.55 88.9)
+			(xy 73.66 88.9) (xy 91.44 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2107,26 +2254,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 96.52) (xy 91.44 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16278bb2-e283-4a05-b51e-86ef24eb8502")
-	)
-	(wire
-		(pts
-			(xy 90.17 88.9) (xy 91.44 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1872752a-0df1-4136-8cd8-28f199d9acfa")
-	)
-	(wire
-		(pts
 			(xy 67.31 87.63) (xy 71.12 87.63)
 		)
 		(stroke
@@ -2137,7 +2264,17 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 171.45) (xy 17.78 172.72)
+			(xy 116.84 90.17) (xy 124.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f44d9fd-3dc4-4c6c-9b28-e54ae7c71140")
+	)
+	(wire
+		(pts
+			(xy 17.78 168.91) (xy 17.78 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2147,7 +2284,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 73.66) (xy 82.55 73.66)
+			(xy 116.84 74.93) (xy 124.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206449e2-2497-4c64-8bf5-71d922a55941")
+	)
+	(wire
+		(pts
+			(xy 78.74 73.66) (xy 91.44 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2167,6 +2314,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 190.5) (xy 90.17 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28332617-3414-4d54-b7ca-7ec52d834880")
+	)
+	(wire
+		(pts
 			(xy 133.35 67.31) (xy 138.43 67.31)
 		)
 		(stroke
@@ -2177,13 +2334,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 77.47) (xy 91.44 77.47)
+			(xy 107.95 175.26) (xy 109.22 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33b4840c-2e83-4fad-ad62-18e7f98848bc")
+		(uuid "2c921ab0-d93e-4405-8ebb-27137d13ce11")
 	)
 	(wire
 		(pts
@@ -2257,26 +2414,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 69.85) (xy 91.44 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51cb2da7-8467-4ea7-910b-efa01cbbb325")
-	)
-	(wire
-		(pts
-			(xy 90.17 81.28) (xy 91.44 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f4a5d2-fca7-44a2-979a-a2dc55427e18")
-	)
-	(wire
-		(pts
 			(xy 72.39 85.09) (xy 72.39 92.71)
 		)
 		(stroke
@@ -2327,7 +2464,27 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 85.09) (xy 82.55 85.09)
+			(xy 17.78 180.34) (xy 24.13 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6851c0ae-81f7-4470-9724-ebe3b9e5ae08")
+	)
+	(wire
+		(pts
+			(xy 24.13 180.34) (xy 27.94 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6873dd18-58ff-468d-b536-5d495b298476")
+	)
+	(wire
+		(pts
+			(xy 74.93 85.09) (xy 91.44 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2377,16 +2534,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 180.34) (xy 24.13 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7318b1d2-5395-4b50-9692-044292fc4742")
-	)
-	(wire
-		(pts
 			(xy 158.75 91.44) (xy 167.64 91.44)
 		)
 		(stroke
@@ -2394,16 +2541,6 @@
 			(type default)
 		)
 		(uuid "7723ae09-0ff7-4136-aa35-461bf2b11a90")
-	)
-	(wire
-		(pts
-			(xy 90.17 73.66) (xy 91.44 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a3a36ad-5eb3-4db3-8b92-9a87f665dd04")
 	)
 	(wire
 		(pts
@@ -2517,6 +2654,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 180.34) (xy 58.42 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65a78b4-39ab-44b2-911e-61069431244c")
+	)
+	(wire
+		(pts
 			(xy 134.62 97.79) (xy 138.43 97.79)
 		)
 		(stroke
@@ -2537,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 175.26) (xy 109.22 175.26)
+			(xy 106.68 175.26) (xy 107.95 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2554,6 +2701,16 @@
 			(type default)
 		)
 		(uuid "c0dee21c-4d63-4f1e-aa0a-4b6a24a389ff")
+	)
+	(wire
+		(pts
+			(xy 17.78 180.34) (xy 17.78 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c412370f-0835-435d-a3e0-522c585a6d35")
 	)
 	(wire
 		(pts
@@ -2607,6 +2764,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 82.55) (xy 124.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1e7789-2aa9-48c6-9bca-c48d60426420")
+	)
+	(wire
+		(pts
 			(xy 175.26 99.06) (xy 175.26 88.9)
 		)
 		(stroke
@@ -2617,13 +2784,13 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 180.34) (xy 27.94 180.34)
+			(xy 116.84 86.36) (xy 124.46 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d57bd186-2545-4197-865e-28ce0d99826b")
+		(uuid "d2772f9b-b640-428f-a0b7-f88d48b85f5b")
 	)
 	(wire
 		(pts
@@ -2677,16 +2844,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 180.34) (xy 49.53 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea9ddcce-c18c-466e-a11b-ad69e1c8e44f")
-	)
-	(wire
-		(pts
 			(xy 158.75 96.52) (xy 172.72 96.52)
 		)
 		(stroke
@@ -2707,7 +2864,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 92.71) (xy 82.55 92.71)
+			(xy 116.84 78.74) (xy 124.46 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b02a39-686d-4109-b47b-276fc9b9d3fe")
+	)
+	(wire
+		(pts
+			(xy 72.39 92.71) (xy 91.44 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2717,23 +2884,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 81.28) (xy 82.55 81.28)
+			(xy 76.2 81.28) (xy 91.44 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe364940-e46c-4b30-90db-28d3fb44333b")
-	)
-	(wire
-		(pts
-			(xy 90.17 85.09) (xy 91.44 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff29b377-6785-4e76-91c7-1307d371743f")
 	)
 	(label "d2"
 		(at 134.62 97.79 0)
@@ -2755,6 +2912,26 @@
 		)
 		(uuid "28a86ef4-0a82-4266-89aa-8f57839c3de4")
 	)
+	(label "d1"
+		(at 41.91 146.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a0c9c0c-33e2-4f11-bb0d-84619232bdaf")
+	)
+	(label "e1"
+		(at 38.1 146.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cba70c9-1aed-4ba0-bfc9-bae6da267acc")
+	)
 	(label "a2"
 		(at 124.46 90.17 0)
 		(effects
@@ -2764,6 +2941,16 @@
 			(justify left bottom)
 		)
 		(uuid "41cd325f-41cc-4ab7-856d-352c625e7eeb")
+	)
+	(label "b1"
+		(at 82.55 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "429cb031-526d-4f08-a9cb-ea1d1d4538d2")
 	)
 	(label "d2"
 		(at 133.35 78.74 0)
@@ -2775,6 +2962,26 @@
 		)
 		(uuid "47abb5d2-582e-43df-a4c5-9bc7cd723b21")
 	)
+	(label "c1"
+		(at 45.72 146.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d219435-c2be-405f-ad6f-a5ca728e3493")
+	)
+	(label "b1"
+		(at 49.53 146.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d48375b-a008-4b17-8d43-deb4d9e1ff96")
+	)
 	(label "d2"
 		(at 124.46 78.74 0)
 		(effects
@@ -2784,6 +2991,26 @@
 			(justify left bottom)
 		)
 		(uuid "547f1fd6-27ec-4fd6-b447-4508e82b3e6f")
+	)
+	(label "d0"
+		(at 26.67 146.0989 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a65cb2e-cb9b-46a1-9563-58267c1555b2")
+	)
+	(label "b0"
+		(at 82.55 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fe169ba-a2b4-47ae-afbc-9e6f108c8a46")
 	)
 	(label "c2"
 		(at 133.35 74.93 0)
@@ -2795,6 +3022,16 @@
 		)
 		(uuid "6666f78a-3346-475f-9ea7-829f65b43c15")
 	)
+	(label "d0"
+		(at 82.5011 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "698309cd-f1e5-4a34-8745-4be188713205")
+	)
 	(label "c2"
 		(at 124.46 82.55 0)
 		(effects
@@ -2804,6 +3041,56 @@
 			(justify left bottom)
 		)
 		(uuid "6d7074d2-3acf-4fe8-8a41-69bd36d8eb1e")
+	)
+	(label "c1"
+		(at 82.55 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7286782e-1a31-49a4-87b6-8517e9442598")
+	)
+	(label "e0"
+		(at 82.5011 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85b41e73-ed60-4c54-8f0b-99d5904efff3")
+	)
+	(label "e0"
+		(at 22.86 146.0989 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f28862f-02ef-4250-9530-7d68500bd96e")
+	)
+	(label "b0"
+		(at 34.29 146.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90a845ec-f462-44bb-9854-a5b85042e7a6")
+	)
+	(label "e1"
+		(at 82.55 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9534bc58-ffb0-4d9b-ab00-2534ddc9e79e")
 	)
 	(label "a2"
 		(at 134.62 90.17 0)
@@ -2825,6 +3112,16 @@
 		)
 		(uuid "a797ada6-36f1-4b4d-857d-c6b0422bda67")
 	)
+	(label "c0"
+		(at 82.5011 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9cf3cf7-4d1e-45bb-88ec-f7a3ddc287b5")
+	)
 	(label "e2"
 		(at 134.62 100.33 0)
 		(effects
@@ -2834,6 +3131,16 @@
 			(justify left bottom)
 		)
 		(uuid "bdee288d-9026-4e59-89d9-b8a2402e5cdb")
+	)
+	(label "c0"
+		(at 30.48 146.0989 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c69185d9-b824-4aed-9362-1b85dc014944")
 	)
 	(label "b2"
 		(at 124.46 86.36 0)
@@ -2875,9 +3182,19 @@
 		)
 		(uuid "f54118a3-ce4a-4fb4-8642-4387decc551c")
 	)
+	(label "d1"
+		(at 82.55 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f61d0f76-9a65-40b0-8db2-0f87895edff8")
+	)
 	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 86.36 73.66 180)
+		(lib_id "power:GND")
+		(at 49.53 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2885,32 +3202,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1014b8a4-5a4e-4007-925e-1ae782dbfb91")
-		(property "Reference" "D8"
-			(at 81.28 75.946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD131-B1-W0201"
-			(at 64.262 58.166 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 86.36 73.66 0)
+		(fields_autoplaced yes)
+		(uuid "0a0b63f5-fc40-4e2d-9565-c7b2be8cb782")
+		(property "Reference" "#PWR0132"
+			(at 49.53 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2920,8 +3215,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 86.36 73.66 0)
+		(property "Value" "GND"
+			(at 49.53 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2931,8 +3236,8 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 86.36 73.66 0)
+		(property "Datasheet" ""
+			(at 49.53 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2942,8 +3247,8 @@
 				)
 			)
 		)
-		(property "Basic" ""
-			(at 86.36 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2952,50 +3257,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 86.36 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 86.36 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 86.36 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4f2b3a98-0cbc-432d-9ad2-250ff97671b3")
 		)
 		(pin "1"
-			(uuid "181039fb-d88e-4acf-8476-7b0f7af4b0c9")
+			(uuid "a2cb4119-7b12-4476-9bac-4d8de8db3b27")
 		)
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D8")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -3003,7 +3272,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD131-B1-W0201")
-		(at 86.36 85.09 180)
+		(at 49.53 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3011,135 +3280,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "126c4073-aea6-4c50-9382-8c42af4c6db7")
-		(property "Reference" "D11"
-			(at 82.042 86.868 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD131-B1-W0201"
-			(at 75.692 58.166 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 86.36 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 86.36 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 86.36 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" ""
-			(at 86.36 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 86.36 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 86.36 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 86.36 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "48c6ff75-bbb7-4d2d-a7c7-a96615525464")
-		)
-		(pin "1"
-			(uuid "2251ea6b-2f6a-4f6e-822c-2391be7bc519")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 120.65 74.93 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15ffdd1a-187c-4e8b-a737-119df2a21886")
-		(property "Reference" "D6"
-			(at 119.634 71.882 0)
+		(uuid "2a37df6e-3e70-49a2-9aef-2381efa15e9f")
+		(property "Reference" "D9"
+			(at 48.514 141.986 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3150,7 +3293,7 @@
 			)
 		)
 		(property "Value" "ESD131-B1-W0201"
-			(at 108.712 77.216 90)
+			(at 47.244 137.922 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3162,7 +3305,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 120.65 74.93 0)
+			(at 49.53 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3173,7 +3316,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 120.65 74.93 0)
+			(at 49.53 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3184,7 +3327,7 @@
 			)
 		)
 		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 120.65 74.93 0)
+			(at 49.53 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3194,8 +3337,8 @@
 				)
 			)
 		)
-		(property "Basic" ""
-			(at 120.65 74.93 0)
+		(property "Basic" "X"
+			(at 49.53 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3205,8 +3348,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 120.65 74.93 0)
+		(property "JLCPCB Part #" "C20611048"
+			(at 49.53 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3216,8 +3359,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 120.65 74.93 0)
+		(property "Manufacturer" "TI"
+			(at 49.53 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3227,8 +3370,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 120.65 74.93 0)
+		(property "Manufacturer Part Number" "TSD05CDYFR"
+			(at 49.53 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3239,15 +3382,141 @@
 			)
 		)
 		(pin "2"
-			(uuid "2878092a-b602-4e91-a6b9-6fd21e8acbcd")
+			(uuid "e4b1db9d-6062-4a6a-aafb-217fba5545e0")
 		)
 		(pin "1"
-			(uuid "6df0cd0a-7147-4045-af43-ea6d258449ce")
+			(uuid "fc37be82-c00e-47fd-8652-c1354a72a09a")
 		)
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D6")
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD131-B1-W0201")
+		(at 26.67 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ca0610f-0c7a-4788-a990-9bbeda039135")
+		(property "Reference" "D3"
+			(at 25.654 141.986 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD131-B1-W0201"
+			(at 24.384 137.922 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+			(at 26.67 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
+			(at 26.67 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
+			(at 26.67 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "X"
+			(at 26.67 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C20611048"
+			(at 26.67 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 26.67 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TSD05CDYFR"
+			(at 26.67 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a31f112b-e5d1-4db8-a7a5-77f3885c3b7c")
+		)
+		(pin "1"
+			(uuid "78d31737-9abc-4cf2-9547-a564b79b6c0c")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3320,7 +3589,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 45.72 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -3331,7 +3600,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1592"
 			(at 45.72 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -3342,7 +3611,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 45.72 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -3353,7 +3622,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10A105KO8NNNC"
 			(at 45.72 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -3502,6 +3771,210 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 34.29 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "350cec99-613b-498e-8853-4cb94052c5ba")
+		(property "Reference" "#PWR0128"
+			(at 34.29 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f58a1e17-1426-4960-81b8-6ba7b6e1318a")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD131-B1-W0201")
+		(at 22.86 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38a18b03-aef5-481c-9d62-f936a1bc0bbb")
+		(property "Reference" "D2"
+			(at 21.844 141.986 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD131-B1-W0201"
+			(at 20.574 137.922 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+			(at 22.86 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
+			(at 22.86 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
+			(at 22.86 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "X"
+			(at 22.86 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C20611048"
+			(at 22.86 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 22.86 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TSD05CDYFR"
+			(at 22.86 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "96abf8a7-6c9d-4989-889f-b73af59f0d00")
+		)
+		(pin "1"
+			(uuid "61d5c108-0643-497d-9349-6ee27637aa23")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 78.74 180.34 0)
 		(unit 1)
@@ -3600,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 78.74 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -3611,7 +4084,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C964792"
 			(at 78.74 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -3622,7 +4095,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "MYOUNG"
 			(at 78.74 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -3633,7 +4106,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "BS-08-B2AA016"
 			(at 78.74 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -3732,6 +4205,84 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44550e31-c6dc-4be3-9549-7d8cdd3d120f")
+		(property "Reference" "#PWR0131"
+			(at 45.72 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "477442c8-e598-442e-86bf-f5ef312b5095")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -3861,7 +4412,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD131-B1-W0201")
-		(at 120.65 78.74 180)
+		(at 41.91 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3869,9 +4420,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "51b0f02c-cefa-41e4-8672-c3ade447da85")
-		(property "Reference" "D5"
-			(at 126.746 79.502 0)
+		(uuid "534636de-ebcf-40d1-8211-0e90f5fb2b8e")
+		(property "Reference" "D7"
+			(at 40.894 141.986 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3882,7 +4433,7 @@
 			)
 		)
 		(property "Value" "ESD131-B1-W0201"
-			(at 108.712 81.026 90)
+			(at 39.624 137.922 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3894,7 +4445,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 120.65 78.74 0)
+			(at 41.91 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3905,7 +4456,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 120.65 78.74 0)
+			(at 41.91 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3916,7 +4467,7 @@
 			)
 		)
 		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 120.65 78.74 0)
+			(at 41.91 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3926,8 +4477,8 @@
 				)
 			)
 		)
-		(property "Basic" ""
-			(at 120.65 78.74 0)
+		(property "Basic" "X"
+			(at 41.91 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3937,8 +4488,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 120.65 78.74 0)
+		(property "JLCPCB Part #" "C20611048"
+			(at 41.91 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3948,8 +4499,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 120.65 78.74 0)
+		(property "Manufacturer" "TI"
+			(at 41.91 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3959,8 +4510,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 120.65 78.74 0)
+		(property "Manufacturer Part Number" "TSD05CDYFR"
+			(at 41.91 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3971,15 +4522,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "07d92461-bcb4-4bb3-a10d-feabd073960a")
+			(uuid "01862467-f1ba-4341-8496-8070a0234035")
 		)
 		(pin "1"
-			(uuid "d3a91cf3-9aed-4f29-a58b-a49c8ecdb1bf")
+			(uuid "8551988d-998f-4e71-85c4-909b6f723dbc")
 		)
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3987,7 +4538,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD131-B1-W0201")
-		(at 86.36 69.85 180)
+		(at 38.1 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3995,20 +4546,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5887d652-f4f2-4b08-94f5-b05e7138f1be")
-		(property "Reference" "D7"
-			(at 81.788 72.136 0)
+		(uuid "5c47541a-8fe2-45f6-bce4-8880aebb2736")
+		(property "Reference" "D6"
+			(at 37.084 141.986 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "ESD131-B1-W0201"
-			(at 60.452 55.372 0)
+			(at 35.814 137.922 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4016,11 +4567,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 86.36 69.85 0)
+			(at 38.1 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4031,7 +4582,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 86.36 69.85 0)
+			(at 38.1 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4042,7 +4593,7 @@
 			)
 		)
 		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 86.36 69.85 0)
+			(at 38.1 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4052,8 +4603,8 @@
 				)
 			)
 		)
-		(property "Basic" ""
-			(at 86.36 69.85 0)
+		(property "Basic" "X"
+			(at 38.1 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4063,8 +4614,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 86.36 69.85 0)
+		(property "JLCPCB Part #" "C20611048"
+			(at 38.1 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4074,8 +4625,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 86.36 69.85 0)
+		(property "Manufacturer" "TI"
+			(at 38.1 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4085,8 +4636,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 86.36 69.85 0)
+		(property "Manufacturer Part Number" "TSD05CDYFR"
+			(at 38.1 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4097,15 +4648,249 @@
 			)
 		)
 		(pin "2"
-			(uuid "1289a0a5-9e31-431d-8448-41cbf69ef52c")
+			(uuid "57a6ed26-f27f-41e8-a5cf-bf900b630ac4")
 		)
 		(pin "1"
-			(uuid "5436e66e-4585-470b-8b29-4c9e9d0237ef")
+			(uuid "9ac185c8-ecfb-4a91-b8f6-1175a7029609")
 		)
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D7")
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5db034b3-9caf-4ad4-8176-8a09defa385d")
+		(property "Reference" "#PWR0125"
+			(at 22.86 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3448c5d-933d-4b0c-850d-8135b743ca45")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64026161-7512-48f0-b62f-ee153b71eaed")
+		(property "Reference" "#PWR0127"
+			(at 30.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cda313eb-f649-4cd3-9864-0965b4f573c0")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 17.78 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "705325cd-b742-45db-9130-f3337feceb90")
+		(property "Reference" "#PWR0124"
+			(at 17.78 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.78 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 17.78 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b66e57b-40e5-4026-a10f-1c117fb87ed0")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -4234,8 +5019,134 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 17.78 176.53 0)
+		(lib_id "Diode:ESD131-B1-W0201")
+		(at 34.29 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e5c5051-3985-48c7-af54-6ee139271dd3")
+		(property "Reference" "D5"
+			(at 33.274 141.986 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD131-B1-W0201"
+			(at 32.004 137.922 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+			(at 34.29 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
+			(at 34.29 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
+			(at 34.29 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "X"
+			(at 34.29 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C20611048"
+			(at 34.29 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 34.29 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TSD05CDYFR"
+			(at 34.29 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c57d0e3a-d97b-4743-8ecb-1e1ab72af78f")
+		)
+		(pin "1"
+			(uuid "a99d6c24-517b-40d8-a30b-e5f474bd93b9")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 107.95 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4244,31 +5155,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8917f3de-3112-44f0-a2a8-67c2378c9caf")
-		(property "Reference" "C17"
-			(at 21.59 175.2599 0)
+		(uuid "814339f7-621d-45d7-be01-63f1e6fb690c")
+		(property "Reference" "#FLG01"
+			(at 107.95 173.355 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 21.59 177.7999 0)
+		(property "Value" "PWR_FLAG"
+			(at 107.95 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 18.7452 180.34 0)
+			(at 107.95 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4279,7 +5189,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 176.53 0)
+			(at 107.95 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 107.95 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ddc3a0b-3b4c-4227-ba5b-d79bed947b2a")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 17.78 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8917f3de-3112-44f0-a2a8-67c2378c9caf")
+		(property "Reference" "C17"
+			(at 21.59 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 21.59 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 18.7452 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4290,7 +5279,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 17.78 176.53 0)
+			(at 17.78 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4300,8 +5289,8 @@
 				)
 			)
 		)
-		(property "Basic" ""
-			(at 17.78 176.53 0)
+		(property "Basic" "Y"
+			(at 17.78 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4311,8 +5300,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 17.78 176.53 0)
+		(property "JLCPCB Part #" "C1592"
+			(at 17.78 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4322,8 +5311,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 17.78 176.53 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 17.78 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4333,8 +5322,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 17.78 176.53 0)
+		(property "Manufacturer Part Number" "CL10A105KO8NNNC"
+			(at 17.78 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,132 +5343,6 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 86.36 88.9 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a24b8ea-d9d6-44bb-a200-491536957791")
-		(property "Reference" "D12"
-			(at 82.55 90.678 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD131-B1-W0201"
-			(at 79.502 58.166 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 86.36 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 86.36 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 86.36 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" ""
-			(at 86.36 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 86.36 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 86.36 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 86.36 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9b6d6a3f-6351-4f91-a92b-79bbc44d5ecb")
-		)
-		(pin "1"
-			(uuid "b9936092-f5ed-46bb-9e0b-b53129567750")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4642,8 +5505,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 17.78 171.45 0)
+		(lib_id "power:GND")
+		(at 41.91 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4652,9 +5515,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9714b586-6f38-41ae-8986-0f1c4157429c")
-		(property "Reference" "#PWR050"
-			(at 17.78 175.26 0)
+		(uuid "967b7e2d-cefa-4414-8556-1a1284d06b65")
+		(property "Reference" "#PWR0130"
+			(at 41.91 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4664,8 +5527,8 @@
 				)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 17.78 166.37 0)
+		(property "Value" "GND"
+			(at 41.91 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4675,7 +5538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 171.45 0)
+			(at 41.91 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4686,7 +5549,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 171.45 0)
+			(at 41.91 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d27ed659-4822-4869-9e8a-a07c03bbefc7")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 17.78 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9714b586-6f38-41ae-8986-0f1c4157429c")
+		(property "Reference" "#PWR050"
+			(at 17.78 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 17.78 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4697,7 +5638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 17.78 171.45 0)
+			(at 17.78 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4714,132 +5655,6 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 120.65 82.55 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99f7bb07-851e-4664-a0c7-346b832dec8a")
-		(property "Reference" "D4"
-			(at 127 83.312 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD131-B1-W0201"
-			(at 108.712 84.836 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 120.65 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 120.65 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 120.65 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" ""
-			(at 120.65 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 120.65 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 120.65 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 120.65 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "028bf143-d3f3-46e5-8733-feb1b579eb02")
-		)
-		(pin "1"
-			(uuid "f62d0015-2c78-456b-af5d-b2491eb2e06a")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4910,7 +5725,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 35.56 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -4921,7 +5736,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C963430"
 			(at 35.56 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -4932,7 +5747,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 35.56 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -4943,7 +5758,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "TPS7A2018PDBVR"
 			(at 35.56 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -4973,6 +5788,84 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
 					(reference "U49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e5c6a35-2a02-49d5-bf95-9b6c75cd5111")
+		(property "Reference" "#PWR0129"
+			(at 38.1 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3ff40ad-e238-44fa-bc7f-fef33418f36a")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -5057,8 +5950,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 86.36 77.47 180)
+		(lib_id "power:GND")
+		(at 26.67 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5066,20 +5959,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "abeac24c-217c-4472-a256-403a12f4da53")
-		(property "Reference" "D9"
-			(at 81.28 79.756 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD131-B1-W0201"
-			(at 67.31 53.086 0)
+		(fields_autoplaced yes)
+		(uuid "a79058c3-6309-4b43-8e3a-e40ec41704ec")
+		(property "Reference" "#PWR0126"
+			(at 26.67 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5087,11 +5970,99 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36696728-0ed8-4462-9728-4e43967c4f0d")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD131-B1-W0201")
+		(at 45.72 149.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac1fa2df-38c0-44d6-9537-b2b006ceef82")
+		(property "Reference" "D8"
+			(at 44.704 141.986 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD131-B1-W0201"
+			(at 43.434 137.922 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 86.36 77.47 0)
+			(at 45.72 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +6073,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 86.36 77.47 0)
+			(at 45.72 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5113,7 +6084,7 @@
 			)
 		)
 		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 86.36 77.47 0)
+			(at 45.72 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,8 +6094,8 @@
 				)
 			)
 		)
-		(property "Basic" ""
-			(at 86.36 77.47 0)
+		(property "Basic" "X"
+			(at 45.72 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5134,8 +6105,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 86.36 77.47 0)
+		(property "JLCPCB Part #" "C20611048"
+			(at 45.72 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5145,8 +6116,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 86.36 77.47 0)
+		(property "Manufacturer" "TI"
+			(at 45.72 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5156,8 +6127,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 86.36 77.47 0)
+		(property "Manufacturer Part Number" "TSD05CDYFR"
+			(at 45.72 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5168,15 +6139,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6866b486-9174-40a1-8b1e-f0d8c08df8db")
+			(uuid "5fb55c78-3a7a-48b6-8483-2237bf10cdee")
 		)
 		(pin "1"
-			(uuid "ca512cb6-2f94-4ade-bed6-b8ead02f8118")
+			(uuid "f061ee43-a967-45ec-b658-e981617a3c25")
 		)
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5326,7 +6297,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 90.17 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -5337,7 +6308,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C20611048"
 			(at 90.17 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -5348,7 +6319,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 90.17 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -5359,7 +6330,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "TSD05CDYFR"
 			(at 90.17 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -5449,7 +6420,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -5460,7 +6431,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C431540"
 			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -5471,7 +6442,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "SHOU HAN"
 			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -5482,7 +6453,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MSK12C02"
 			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -5512,8 +6483,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 86.36 81.28 180)
+		(lib_id "power:PWR_FLAG")
+		(at 90.17 190.5 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5521,9 +6492,21 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c6238e94-1c75-4485-a614-28f46d1c243a")
-		(property "Reference" "D10"
-			(at 81.788 83.312 0)
+		(fields_autoplaced yes)
+		(uuid "d99ce8fc-70e2-4e5d-b865-95ccac0f7a5d")
+		(property "Reference" "#FLG02"
+			(at 92.075 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 93.98 190.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5533,20 +6516,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD131-B1-W0201"
-			(at 71.882 58.166 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 86.36 81.28 0)
+		(property "Footprint" ""
+			(at 90.17 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5556,8 +6527,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 86.36 81.28 0)
+		(property "Datasheet" ""
+			(at 90.17 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5567,8 +6538,8 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 86.36 81.28 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 90.17 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5577,313 +6548,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Basic" ""
-			(at 86.36 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 86.36 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 86.36 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 86.36 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8f023121-d22a-45c0-8a4a-192da11d7857")
 		)
 		(pin "1"
-			(uuid "45b9c71a-efba-4e0f-b396-fc21b3298d6e")
+			(uuid "237b5dbe-4edf-4a43-88f6-07071ecb4974")
 		)
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 86.36 92.71 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cd123172-5bcf-47e9-826b-f39e035bc06e")
-		(property "Reference" "D13"
-			(at 82.55 94.742 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD131-B1-W0201"
-			(at 83.312 58.166 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 86.36 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 86.36 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 86.36 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" ""
-			(at 86.36 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 86.36 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 86.36 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 86.36 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e65a4ca0-12e1-4d9a-9e0e-7859aea88c6f")
-		)
-		(pin "1"
-			(uuid "d0c86e2f-0ad6-4c16-8808-f14444f7ca2e")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 120.65 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da87dafe-b3e2-4054-a64f-08ab184bcd1f")
-		(property "Reference" "D3"
-			(at 127.254 87.376 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD131-B1-W0201"
-			(at 108.712 88.646 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 120.65 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 120.65 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 120.65 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" ""
-			(at 120.65 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 120.65 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 120.65 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 120.65 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a0065f93-b0bf-4ef8-a191-686403520425")
-		)
-		(pin "1"
-			(uuid "37aab035-d99e-4d25-98d5-ae500ed07822")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D3")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -6267,7 +6939,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD131-B1-W0201")
-		(at 86.36 96.52 180)
+		(at 30.48 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6275,20 +6947,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f6ec0ded-677f-4fc2-b320-11917c2fb4e9")
-		(property "Reference" "D14"
-			(at 82.804 98.552 0)
+		(uuid "f1ccf2b0-3ea2-4f31-9884-0c5ef45e27c3")
+		(property "Reference" "D4"
+			(at 29.464 141.986 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "ESD131-B1-W0201"
-			(at 87.122 58.166 0)
+			(at 28.194 137.922 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6296,11 +6968,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 86.36 96.52 0)
+			(at 30.48 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6311,7 +6983,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 86.36 96.52 0)
+			(at 30.48 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6322,7 +6994,7 @@
 			)
 		)
 		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 86.36 96.52 0)
+			(at 30.48 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6332,8 +7004,8 @@
 				)
 			)
 		)
-		(property "Basic" ""
-			(at 86.36 96.52 0)
+		(property "Basic" "X"
+			(at 30.48 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6343,8 +7015,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
-			(at 86.36 96.52 0)
+		(property "JLCPCB Part #" "C20611048"
+			(at 30.48 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6354,8 +7026,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 86.36 96.52 0)
+		(property "Manufacturer" "TI"
+			(at 30.48 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6365,8 +7037,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 86.36 96.52 0)
+		(property "Manufacturer Part Number" "TSD05CDYFR"
+			(at 30.48 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6377,15 +7049,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0a9221e5-87c6-423e-b5f6-0095bd270334")
+			(uuid "bd8f6f5b-f6ac-46d2-892a-3b2faadc826e")
 		)
 		(pin "1"
-			(uuid "da9c49cd-c04d-4934-a93e-442fdeb1fa88")
+			(uuid "55cfaa31-329a-4896-930e-9ffb3b648975")
 		)
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D14")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6471,7 +7143,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 185.42 0)
+		(at 90.17 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6482,7 +7154,7 @@
 		(fields_autoplaced yes)
 		(uuid "fadb5a67-97fa-4805-bb95-c8e2929858e1")
 		(property "Reference" "#PWR0110"
-			(at 90.17 191.77 0)
+			(at 90.17 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6493,7 +7165,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 190.5 0)
+			(at 90.17 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6503,7 +7175,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 185.42 0)
+			(at 90.17 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6514,7 +7186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 185.42 0)
+			(at 90.17 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6525,7 +7197,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 185.42 0)
+			(at 90.17 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6542,132 +7214,6 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD131-B1-W0201")
-		(at 120.65 90.17 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fb5cec87-f23c-4656-98d9-d3e16c5de84d")
-		(property "Reference" "D2"
-			(at 119.888 93.726 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD131-B1-W0201"
-			(at 108.712 92.456 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 120.65 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 120.65 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 120.65 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" ""
-			(at 120.65 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 120.65 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 120.65 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 120.65 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "010e3af4-2815-411d-8a95-dfea07ddd140")
-		)
-		(pin "1"
-			(uuid "2dda2b3e-7035-423d-b9de-0d41148700da")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07"
-					(reference "D2")
 					(unit 1)
 				)
 			)

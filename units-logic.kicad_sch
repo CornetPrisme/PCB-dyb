@@ -2056,12 +2056,6 @@
 		(uuid "1d2af5d0-0447-48be-b808-fe8feb7a0aa6")
 	)
 	(junction
-		(at 360.68 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d693aad-338b-4739-9e24-47f321a2ad94")
-	)
-	(junction
 		(at 40.64 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2180,6 +2174,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "739b1c1e-d499-4954-bf76-14cb72ed3407")
+	)
+	(junction
+		(at 386.08 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76f1316b-6bfc-4fbd-a9b0-859d922545b1")
 	)
 	(junction
 		(at 335.28 25.4)
@@ -4213,7 +4213,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 127 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -4224,7 +4224,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 127 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -4235,7 +4235,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 127 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -4246,7 +4246,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 127 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -4356,7 +4356,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 92.71 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4367,7 +4367,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C22046"
 			(at 92.71 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4378,7 +4378,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 92.71 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4389,7 +4389,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74LVC1G11DBVR"
 			(at 92.71 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4570,7 +4570,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 162.56 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -4581,7 +4581,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2860154"
 			(at 162.56 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -4592,7 +4592,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 162.56 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -4603,7 +4603,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUC2G08DCUR"
 			(at 162.56 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -4797,83 +4797,6 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 360.68 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0f037d34-4988-4d39-8d10-82ccd3ac88b0")
-		(property "Reference" "#PWR077"
-			(at 360.68 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 363.474 53.848 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 360.68 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 360.68 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "70c09894-1eec-40b0-801b-05773f12b2c6")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -5099,7 +5022,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 162.56 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5110,7 +5033,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2860154"
 			(at 162.56 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5121,7 +5044,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 162.56 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5132,7 +5055,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUC2G08DCUR"
 			(at 162.56 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5320,7 +5243,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 382.27 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -5331,7 +5254,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 382.27 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -5342,7 +5265,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 382.27 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -5353,7 +5276,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 382.27 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -5445,7 +5368,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 93.98 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5456,7 +5379,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 93.98 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5467,7 +5390,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 93.98 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5478,7 +5401,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 93.98 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5606,7 +5529,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 386.08 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5617,7 +5540,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 386.08 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5628,7 +5551,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 386.08 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5639,7 +5562,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 386.08 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5697,6 +5620,143 @@
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "U9")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CornetPrisme_Library:SN74LVC1G11")
+		(at 386.08 228.6 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21b34e1f-c850-4026-999a-48b3fa67900f")
+		(property "Reference" "U10"
+			(at 386.08 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 386.08 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 409.448 243.332 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf"
+			(at 419.1 240.792 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "AND GATE 3 INPUT 1 CHANNEL"
+			(at 408.432 238.506 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "X"
+			(at 386.08 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22046"
+			(at 386.08 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 386.08 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SN74LVC1G11DBVR"
+			(at 386.08 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b17eaf10-ab76-4033-a67f-794c638407c7")
+		)
+		(pin "3"
+			(uuid "58ce7210-34ef-4c73-b2f3-95c3dbec245e")
+		)
+		(pin "4"
+			(uuid "7a7a0160-649e-4144-a7e1-1a8a777943b9")
+		)
+		(pin "6"
+			(uuid "9fab78ae-cea8-4e02-ba6c-bcb6d452b97f")
+		)
+		(pin "5"
+			(uuid "3bcec6db-925b-48f6-b392-791072f44738")
+		)
+		(pin "2"
+			(uuid "d9690b80-4df6-40b1-9e7c-5cb4b7116f74")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "U10")
+					(unit 2)
 				)
 			)
 		)
@@ -5766,7 +5826,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5777,7 +5837,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5788,7 +5848,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5799,7 +5859,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5838,6 +5898,83 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "U30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 386.08 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25594463-735d-4071-bf2b-807ea78eec98")
+		(property "Reference" "#PWR0119"
+			(at 386.08 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 388.874 212.598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 386.08 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a87b60b7-198c-43c6-b6de-2278aa992fe4")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -6010,7 +6147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "297fb1d1-6a28-40c8-a3e2-ca6a5da25be4")
-		(property "Reference" "U29"
+		(property "Reference" "U6"
 			(at 280.67 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6065,7 +6202,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 274.32 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6076,7 +6213,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C139318"
 			(at 274.32 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6087,7 +6224,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 274.32 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6098,7 +6235,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G14DCKR"
 			(at 274.32 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6130,7 +6267,7 @@
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "U29")
+					(reference "U6")
 					(unit 3)
 				)
 			)
@@ -6202,7 +6339,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 92.71 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6213,7 +6350,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C22046"
 			(at 92.71 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6224,7 +6361,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 92.71 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6235,7 +6372,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74LVC1G11DBVR"
 			(at 92.71 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6338,7 +6475,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 209.55 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -6349,7 +6486,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 209.55 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -6360,7 +6497,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 209.55 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -6371,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 209.55 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -6558,7 +6695,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 93.98 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6569,7 +6706,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 93.98 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6580,7 +6717,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 93.98 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6591,7 +6728,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 93.98 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6796,7 +6933,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 360.68 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6807,7 +6944,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C22046"
 			(at 360.68 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6818,7 +6955,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 360.68 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6829,7 +6966,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74LVC1G11DBVR"
 			(at 360.68 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6863,84 +7000,6 @@
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "U28")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 360.68 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40c5d520-98c1-41af-ab67-71441f1c4b4e")
-		(property "Reference" "#PWR078"
-			(at 360.68 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 360.68 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 360.68 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 360.68 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9b1eaef-445e-4844-ac81-12b1ece03560")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "#PWR078")
-					(unit 1)
 				)
 			)
 		)
@@ -7088,7 +7147,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 93.98 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7099,7 +7158,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 93.98 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7110,7 +7169,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 93.98 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7121,7 +7180,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 93.98 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -7327,7 +7386,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 360.68 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7338,7 +7397,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 360.68 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7349,7 +7408,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 360.68 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7360,7 +7419,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 360.68 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7434,7 +7493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48225118-fd4b-43bd-aef9-3541c7cdfe90")
-		(property "Reference" "U46"
+		(property "Reference" "U35"
 			(at 341.63 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7489,7 +7548,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 335.28 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7500,7 +7559,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 335.28 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7511,7 +7570,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 335.28 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7522,7 +7581,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 335.28 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7560,7 +7619,7 @@
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "U46")
+					(reference "U35")
 					(unit 3)
 				)
 			)
@@ -7578,7 +7637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48cf8dc5-4464-42fc-9a62-1b8e6c94b8e9")
-		(property "Reference" "U39"
+		(property "Reference" "U41"
 			(at 360.68 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -7632,7 +7691,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 360.68 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -7643,7 +7702,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 360.68 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -7654,7 +7713,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 360.68 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -7665,7 +7724,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 360.68 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -7721,7 +7780,7 @@
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "U39")
+					(reference "U41")
 					(unit 5)
 				)
 			)
@@ -7738,7 +7797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e266dc5-fe8a-45aa-a60e-bbc2795a0662")
-		(property "Reference" "U29"
+		(property "Reference" "U6"
 			(at 47.498 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7791,7 +7850,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 40.64 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7802,7 +7861,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C139318"
 			(at 40.64 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7813,7 +7872,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 40.64 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7824,7 +7883,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G14DCKR"
 			(at 40.64 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7856,7 +7915,7 @@
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "U29")
+					(reference "U6")
 					(unit 2)
 				)
 			)
@@ -7928,7 +7987,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 386.08 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7939,7 +7998,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C22046"
 			(at 386.08 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7950,7 +8009,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 386.08 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7961,7 +8020,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74LVC1G11DBVR"
 			(at 386.08 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8066,7 +8125,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 327.66 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8077,7 +8136,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2860154"
 			(at 327.66 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8088,7 +8147,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 327.66 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8099,7 +8158,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUC2G08DCUR"
 			(at 327.66 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8209,7 +8268,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 298.45 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -8220,7 +8279,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 298.45 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -8231,7 +8290,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 298.45 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -8242,7 +8301,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 298.45 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -8411,7 +8470,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8422,7 +8481,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8433,7 +8492,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8444,7 +8503,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8554,7 +8613,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 356.87 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -8565,7 +8624,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 356.87 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -8576,7 +8635,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 356.87 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -8587,7 +8646,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 356.87 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -8911,7 +8970,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 128.27 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -8922,7 +8981,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 128.27 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -8933,7 +8992,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 128.27 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -8944,7 +9003,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 128.27 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -9054,7 +9113,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 92.71 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9065,7 +9124,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C22046"
 			(at 92.71 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9076,7 +9135,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 92.71 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9087,7 +9146,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74LVC1G11DBVR"
 			(at 92.71 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9191,7 +9250,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 92.71 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9202,7 +9261,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C22046"
 			(at 92.71 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9213,7 +9272,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 92.71 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9224,7 +9283,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74LVC1G11DBVR"
 			(at 92.71 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9248,10 +9307,10 @@
 			(uuid "77de3285-062c-4492-95c9-c886244d56c6")
 		)
 		(pin "5"
-			(uuid "3bcec6db-925b-48f6-b392-791072f44738")
+			(uuid "3bcec6db-925b-48f6-b392-791072f44739")
 		)
 		(pin "2"
-			(uuid "d9690b80-4df6-40b1-9e7c-5cb4b7116f74")
+			(uuid "d9690b80-4df6-40b1-9e7c-5cb4b7116f75")
 		)
 		(instances
 			(project "PCB-dyb"
@@ -9327,7 +9386,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 127 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9338,7 +9397,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 127 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9349,7 +9408,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 127 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9360,7 +9419,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 127 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9470,7 +9529,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 356.87 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -9481,7 +9540,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 356.87 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -9492,7 +9551,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 356.87 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -9503,7 +9562,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 356.87 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -9673,7 +9732,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 93.98 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -9684,7 +9743,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 93.98 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -9695,7 +9754,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 93.98 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -9706,7 +9765,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 93.98 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -9780,7 +9839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6968823e-fc1c-4ba6-8f79-98d5b7e6b278")
-		(property "Reference" "U40"
+		(property "Reference" "U31"
 			(at 367.03 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9835,7 +9894,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 360.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9846,7 +9905,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 360.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9857,7 +9916,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 360.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9868,7 +9927,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 360.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9906,7 +9965,7 @@
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "U40")
+					(reference "U31")
 					(unit 3)
 				)
 			)
@@ -9978,7 +10037,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 116.84 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -9989,7 +10048,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 116.84 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -10000,7 +10059,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 116.84 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -10011,7 +10070,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 116.84 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -10216,7 +10275,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 382.27 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -10227,7 +10286,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 382.27 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -10238,7 +10297,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 382.27 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -10249,7 +10308,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 382.27 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -10270,6 +10329,84 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 386.08 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70a2ed2d-3612-4c09-acf1-c62b37188362")
+		(property "Reference" "#PWR0120"
+			(at 386.08 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 386.08 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 386.08 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f97d5de5-cfeb-432d-9a4c-09424ef25fbb")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -10419,7 +10556,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 93.98 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10430,7 +10567,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 93.98 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10441,7 +10578,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 93.98 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10452,7 +10589,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 93.98 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10580,7 +10717,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 152.4 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -10591,7 +10728,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 152.4 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -10602,7 +10739,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 152.4 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -10613,7 +10750,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 152.4 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -10741,7 +10878,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10752,7 +10889,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10763,7 +10900,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10774,7 +10911,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10979,7 +11116,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 323.85 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -10990,7 +11127,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 323.85 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -11001,7 +11138,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 323.85 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -11012,7 +11149,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 323.85 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -11103,7 +11240,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 176.53 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11114,7 +11251,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 176.53 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11125,7 +11262,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 176.53 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11136,7 +11273,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 176.53 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11246,7 +11383,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 140.97 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11257,7 +11394,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 140.97 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11268,7 +11405,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 140.97 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11279,7 +11416,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 140.97 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11406,7 +11543,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 203.2 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11417,7 +11554,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 203.2 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11428,7 +11565,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 203.2 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11439,7 +11576,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 203.2 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11549,7 +11686,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 331.47 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -11560,7 +11697,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 331.47 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -11571,7 +11708,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 331.47 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -11582,7 +11719,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 331.47 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -11603,131 +11740,6 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 356.87 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8ac3871f-77b0-4914-b0e6-18b528ce3b52")
-		(property "Reference" "C26"
-			(at 352.044 55.626 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 350.7741 53.848 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 360.68 56.1848 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 356.87 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" ""
-			(at 356.87 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 356.87 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 356.87 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 356.87 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5732ed8c-26ec-4a60-bcaa-e8bef9954760")
-		)
-		(pin "1"
-			(uuid "4c872679-9570-4c93-8185-4c8faea0d5dc")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -11799,7 +11811,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 93.98 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -11810,7 +11822,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 93.98 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -11821,7 +11833,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 93.98 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -11832,7 +11844,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 93.98 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -11984,7 +11996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9083b7ea-82a5-4e0e-92f7-d94c158ebcfb")
-		(property "Reference" "U38"
+		(property "Reference" "U30"
 			(at 341.63 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12039,7 +12051,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 335.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12050,7 +12062,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 335.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12061,7 +12073,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 335.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12072,7 +12084,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 335.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12110,7 +12122,7 @@
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "U38")
+					(reference "U30")
 					(unit 3)
 				)
 			)
@@ -12128,7 +12140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93524bb6-47ea-4135-b8ab-3fdc0b538ad1")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 308.61 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12183,7 +12195,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 302.26 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12194,7 +12206,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C139318"
 			(at 302.26 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12205,7 +12217,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 302.26 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12216,7 +12228,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G14DCKR"
 			(at 302.26 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12248,7 +12260,7 @@
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "U8")
+					(reference "U7")
 					(unit 3)
 				)
 			)
@@ -12266,7 +12278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97280052-7ccf-4241-9c57-ea3ab75efac8")
-		(property "Reference" "U48"
+		(property "Reference" "U38"
 			(at 392.43 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12321,7 +12333,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 386.08 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12332,7 +12344,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 386.08 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12343,7 +12355,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 386.08 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12354,7 +12366,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 386.08 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12392,7 +12404,7 @@
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "U48")
+					(reference "U38")
 					(unit 3)
 				)
 			)
@@ -12464,7 +12476,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 331.47 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -12475,7 +12487,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 331.47 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -12486,7 +12498,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 331.47 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -12497,7 +12509,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 331.47 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -12589,7 +12601,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -12600,7 +12612,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -12611,7 +12623,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -12622,7 +12634,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 113.03 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -12906,7 +12918,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 58.42 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -12917,7 +12929,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C139318"
 			(at 58.42 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -12928,7 +12940,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 58.42 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -12939,7 +12951,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G14DCKR"
 			(at 58.42 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -13277,7 +13289,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 382.27 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -13288,7 +13300,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 382.27 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -13299,7 +13311,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 382.27 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -13310,7 +13322,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 382.27 176.53 90)
 			(hide yes)
 			(show_name no)
@@ -13480,7 +13492,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 356.87 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -13491,7 +13503,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 356.87 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -13502,7 +13514,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 356.87 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -13513,7 +13525,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 356.87 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -14071,7 +14083,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 93.98 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14082,7 +14094,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 93.98 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14093,7 +14105,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 93.98 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14104,7 +14116,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 93.98 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14309,7 +14321,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 382.27 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -14320,7 +14332,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 382.27 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -14331,7 +14343,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 382.27 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -14342,7 +14354,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 382.27 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -14512,7 +14524,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 93.98 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14523,7 +14535,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 93.98 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14534,7 +14546,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 93.98 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14545,7 +14557,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 93.98 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14686,9 +14698,134 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74AUC2G32")
-		(at 360.68 67.31 0)
-		(unit 3)
+		(lib_id "Device:C")
+		(at 382.27 215.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce307053-0b3b-4d74-97b9-1279b9f7ed55")
+		(property "Reference" "C39"
+			(at 377.444 214.376 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 376.1741 212.598 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 214.9348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 382.27 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 382.27 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
+			(at 382.27 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 382.27 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
+			(at 382.27 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e096b1c-e537-4cd1-94c5-ecfafa5e9668")
+		)
+		(pin "1"
+			(uuid "fb830b18-3c43-487a-831b-6ed5e631631e")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 378.46 215.9 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14696,31 +14833,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf4d5964-9190-4cae-a4ee-244e397cf472")
-		(property "Reference" "U47"
-			(at 367.03 66.0399 0)
+		(uuid "d5c0af98-c28f-4f86-8e17-59a6b4b1504c")
+		(property "Reference" "#PWR0118"
+			(at 378.46 222.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "74AUC2G32"
-			(at 367.03 68.5799 0)
+		(property "Value" "GND"
+			(at 378.46 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 360.68 67.31 0)
+			(at 378.46 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14730,8 +14866,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 360.68 67.31 0)
+		(property "Datasheet" ""
+			(at 378.46 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14741,52 +14877,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual OR Gate, Low-Voltage CMOS"
-			(at 360.68 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" ""
-			(at 360.68 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 360.68 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 360.68 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 360.68 67.31 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 378.46 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14797,34 +14889,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8d17799-6944-441b-a206-8c32f52dcd30")
-		)
-		(pin "2"
-			(uuid "c699233c-c045-440a-a5b0-856f4ee7a569")
-		)
-		(pin "7"
-			(uuid "77ddb6f8-9c2a-4a24-9160-2aaa04430bb9")
-		)
-		(pin "3"
-			(uuid "31be3cff-8273-4a0f-9bcf-e64bb2529083")
-		)
-		(pin "5"
-			(uuid "ac87b989-3700-46b0-9216-2507fb6d74e6")
-		)
-		(pin "6"
-			(uuid "9bc97911-423c-4662-bb32-2121d7c7b0ee")
-		)
-		(pin "4"
-			(uuid "5b794eb2-e009-4d16-ab6e-1f3545ddb363")
-		)
-		(pin "8"
-			(uuid "1c655a6f-4844-4bb2-8a8d-a0de3b5f65af")
+			(uuid "514c2e9b-1eee-433b-b756-5c544a912e00")
 		)
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "U47")
-					(unit 3)
+					(reference "#PWR0118")
+					(unit 1)
 				)
 			)
 		)
@@ -14895,7 +14966,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 93.98 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14906,7 +14977,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 93.98 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14917,7 +14988,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 93.98 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14928,7 +14999,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 93.98 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -15134,7 +15205,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 93.98 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -15145,7 +15216,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 93.98 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -15156,7 +15227,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 93.98 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -15167,7 +15238,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 93.98 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -15295,7 +15366,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 356.87 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -15306,7 +15377,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 356.87 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -15317,7 +15388,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 356.87 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -15328,7 +15399,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 356.87 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -15497,7 +15568,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 270.51 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -15508,7 +15579,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 270.51 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -15519,7 +15590,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 270.51 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -15530,7 +15601,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 270.51 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -15568,7 +15639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e98e3298-6e11-49ad-880e-e42b7a04064c")
-		(property "Reference" "U42"
+		(property "Reference" "U34"
 			(at 392.43 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15623,7 +15694,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15634,7 +15705,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15645,7 +15716,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15656,7 +15727,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15694,7 +15765,7 @@
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "U42")
+					(reference "U34")
 					(unit 3)
 				)
 			)
@@ -15766,7 +15837,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "Y"
 			(at 382.27 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -15777,7 +15848,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C1591"
 			(at 382.27 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -15788,7 +15859,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 382.27 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -15799,7 +15870,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
 			(at 382.27 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -15890,7 +15961,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 276.86 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -15901,7 +15972,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 276.86 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -15912,7 +15983,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 276.86 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -15923,7 +15994,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 276.86 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -16046,84 +16117,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 353.06 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f556b572-09c5-48a4-ba64-6aebc864b27b")
-		(property "Reference" "#PWR076"
-			(at 353.06 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 353.06 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 353.06 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f0cfca9d-069c-48f0-96b2-e89b9ae97199")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CornetPrisme_Library:SN74ALVC08")
 		(at 240.03 273.05 0)
 		(unit 4)
@@ -16189,7 +16182,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 240.03 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -16200,7 +16193,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 240.03 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -16211,7 +16204,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 240.03 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -16222,7 +16215,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 240.03 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -16351,7 +16344,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 21.59 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -16362,7 +16355,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C139318"
 			(at 21.59 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -16373,7 +16366,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 21.59 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -16384,7 +16377,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G14DCKR"
 			(at 21.59 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -16434,7 +16427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6ca45db-751e-454a-8829-248ac5170c9d")
-		(property "Reference" "U41"
+		(property "Reference" "U39"
 			(at 386.08 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -16488,7 +16481,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 386.08 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -16499,7 +16492,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2868761"
 			(at 386.08 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -16510,7 +16503,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 386.08 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -16521,7 +16514,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74ALVC08DR"
 			(at 386.08 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -16577,7 +16570,7 @@
 		(instances
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "U41")
+					(reference "U39")
 					(unit 5)
 				)
 			)
@@ -16650,7 +16643,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 76.2 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -16661,7 +16654,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C139318"
 			(at 76.2 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -16672,7 +16665,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 76.2 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -16683,7 +16676,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G14DCKR"
 			(at 76.2 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -16786,7 +16779,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16797,7 +16790,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C2876519"
 			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16808,7 +16801,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TI"
 			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16819,7 +16812,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SN74AUP2G32DCUR"
 			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
