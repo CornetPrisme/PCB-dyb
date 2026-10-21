@@ -598,12 +598,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -648,7 +660,7 @@
         "uuid": "14e8619a-6057-40b5-87f2-cdde3077dc07"
       }
     ],
-    "used_designators": "U1-41",
+    "used_designators": "J2,D1,#PWR110-112,TP2-3,BT1,SW1",
     "variants": []
   },
   "sheets": [
