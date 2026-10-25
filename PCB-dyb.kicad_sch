@@ -2987,7 +2987,7 @@
 		(uuid "547f1fd6-27ec-4fd6-b447-4508e82b3e6f")
 	)
 	(label "d0"
-		(at 26.67 146.0989 90)
+		(at 26.67 146.05 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3057,7 +3057,7 @@
 		(uuid "85b41e73-ed60-4c54-8f0b-99d5904efff3")
 	)
 	(label "e0"
-		(at 22.86 146.0989 90)
+		(at 22.86 146.05 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3127,7 +3127,7 @@
 		(uuid "bdee288d-9026-4e59-89d9-b8a2402e5cdb")
 	)
 	(label "c0"
-		(at 30.48 146.0989 90)
+		(at 30.48 146.05 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3550,7 +3550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.6852 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -5250,7 +5250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 18.7452 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -6381,7 +6381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_Shouhan_MSK12C02"
 			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6587,7 +6587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 62.23 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6620,7 +6620,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 62.23 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6815,7 +6815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 182.88 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6848,7 +6848,7 @@
 				)
 			)
 		)
-		(property "Basic" ""
+		(property "Basic" "X"
 			(at 182.88 81.28 0)
 			(hide yes)
 			(show_name no)

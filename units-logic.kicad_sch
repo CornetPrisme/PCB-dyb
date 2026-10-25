@@ -2104,6 +2104,12 @@
 		(uuid "3a50b4c8-d7df-484a-9500-94d8e94a6b86")
 	)
 	(junction
+		(at 195.58 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a79f6c9-9bf4-4268-b755-3d79cc799dc9")
+	)
+	(junction
 		(at 360.68 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2174,6 +2180,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "785796d8-6663-421d-9d2e-d4fccf33b7ef")
+	)
+	(junction
+		(at 213.36 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7878f9f9-ed7f-48b3-88ae-d2d7e9aa2fa5")
 	)
 	(junction
 		(at 30.48 157.48)
@@ -4170,7 +4182,7 @@
 				)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 125.73 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4180,7 +4192,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 127 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -4537,7 +4549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:Texas_DGN0008B_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x3mm_Mask1.88x1.98mm"
 			(at 162.56 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -4958,6 +4970,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 205.74 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11a18ec2-6390-45dd-9a17-b4d798a94ce5")
+		(property "Reference" "#PWR0162"
+			(at 205.74 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b7d8b3d-62e9-40eb-94b6-8e35fabc08ec")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74AUC2G08")
 		(at 162.56 142.24 0)
 		(unit 2)
@@ -4989,7 +5079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:Texas_DGN0008B_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x3mm_Mask1.88x1.98mm"
 			(at 162.56 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5210,7 +5300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 386.08 137.4648 0)
 			(hide yes)
 			(show_name no)
@@ -5762,6 +5852,131 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 191.77 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24037c28-6c74-4566-b5ee-b7fe3eb16ca4")
+		(property "Reference" "C50"
+			(at 186.944 25.146 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 185.6741 23.368 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 195.58 25.7048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 191.77 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
+			(at 191.77 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 191.77 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
+			(at 191.77 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "795c3bfe-10e7-4430-84bf-e7a20c57ba24")
+		)
+		(pin "1"
+			(uuid "9b794716-4635-4a88-8c76-216747c526af")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74AUC2G32")
 		(at 123.19 68.58 0)
 		(unit 1)
@@ -5783,7 +5998,7 @@
 				)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 121.92 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5793,7 +6008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6169,7 +6384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 			(at 274.32 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6411,6 +6626,143 @@
 		)
 	)
 	(symbol
+		(lib_id "CornetPrisme_Library:SN74LVC1G11")
+		(at 195.58 39.37 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e4a34e8-31aa-4aba-8eb7-a79b1ba3105f")
+		(property "Reference" "U32"
+			(at 195.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 195.58 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 218.948 54.102 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf"
+			(at 228.6 51.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "AND GATE 3 INPUT 1 CHANNEL"
+			(at 217.932 49.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "X"
+			(at 195.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22046"
+			(at 195.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 195.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SN74LVC1G11DBVR"
+			(at 195.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8dc9cb3b-7c00-4523-ba49-9e12b11fc5be")
+		)
+		(pin "3"
+			(uuid "72f261a7-0e10-444c-a171-72498d31cf62")
+		)
+		(pin "4"
+			(uuid "8c2898e2-d5c6-4409-94d6-cfef17a8405b")
+		)
+		(pin "6"
+			(uuid "b47f3efc-3a02-417e-8b3e-e9c862b47c72")
+		)
+		(pin "5"
+			(uuid "c087ab7c-571f-4ff7-aebf-6a9342fd9eff")
+		)
+		(pin "2"
+			(uuid "ab61f15b-44ca-4c47-b99e-3c02613d7e85")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "U32")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74AUC2G32")
 		(at 209.55 224.79 0)
 		(unit 2)
@@ -6432,7 +6784,7 @@
 				)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 208.28 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6442,7 +6794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 209.55 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -6785,6 +7137,84 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "U36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ae128c7-a6c8-4c97-966c-ff25c665b648")
+		(property "Reference" "#PWR0165"
+			(at 213.36 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "773364ff-3ebb-4c11-ad13-157470b1dfac")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -7504,7 +7934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 341.63 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7515,7 +7945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 335.28 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7817,7 +8247,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 			(at 40.64 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8092,7 +8522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:Texas_DGN0008B_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x3mm_Mask1.88x1.98mm"
 			(at 327.66 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8235,7 +8665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 302.26 24.4348 0)
 			(hide yes)
 			(show_name no)
@@ -8427,7 +8857,7 @@
 				)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 212.09 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8437,7 +8867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 213.36 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8580,7 +9010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 360.68 175.5648 0)
 			(hide yes)
 			(show_name no)
@@ -8927,7 +9357,7 @@
 				)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 127 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8937,7 +9367,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 128.27 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -9043,6 +9473,131 @@
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "U34")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5fd0a06e-1d68-470a-9d3d-808280296a1f")
+		(property "Reference" "C51"
+			(at 204.724 25.146 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 203.4541 23.368 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 213.36 25.7048 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 209.55 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 209.55 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C1591"
+			(at 209.55 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 209.55 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
+			(at 209.55 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7c78079a-1701-4027-ae44-2f2f794bbda7")
+		)
+		(pin "1"
+			(uuid "7f99584d-a97b-45cd-9afc-9784bcf4b97a")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "C51")
+					(unit 1)
 				)
 			)
 		)
@@ -9343,7 +9898,7 @@
 				)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 125.73 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9353,7 +9908,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 127 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9496,7 +10051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 360.68 91.7448 0)
 			(hide yes)
 			(show_name no)
@@ -9850,7 +10405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 367.03 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9861,7 +10416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 360.68 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10242,7 +10797,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 386.08 56.1848 0)
 			(hide yes)
 			(show_name no)
@@ -11083,7 +11638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 327.66 137.4648 0)
 			(hide yes)
 			(show_name no)
@@ -11197,7 +11752,7 @@
 				)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 175.26 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11207,7 +11762,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 176.53 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11500,7 +12055,7 @@
 				)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 201.93 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11510,7 +12065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 203.2 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11653,7 +12208,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 335.28 24.4348 0)
 			(hide yes)
 			(show_name no)
@@ -12007,7 +12562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 341.63 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12018,7 +12573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 335.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12162,7 +12717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 			(at 302.26 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12289,7 +12844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 392.43 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12300,7 +12855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 386.08 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12411,6 +12966,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 213.36 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99306954-e97c-475d-9191-285feb230be3")
+		(property "Reference" "#PWR0163"
+			(at 213.36 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 216.154 23.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 213.36 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c552233e-fc60-4ae6-9d40-a7c81a2158f2")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 331.47 57.15 90)
 		(unit 1)
@@ -12443,7 +13075,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 335.28 56.1848 0)
 			(hide yes)
 			(show_name no)
@@ -12885,7 +13517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 			(at 58.42 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -13256,7 +13888,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 386.08 175.5648 0)
 			(hide yes)
 			(show_name no)
@@ -13459,7 +14091,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 360.68 24.4348 0)
 			(hide yes)
 			(show_name no)
@@ -13623,6 +14255,84 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae79f0b9-b4db-48fa-810b-c38a63c4976a")
+		(property "Reference" "#PWR0164"
+			(at 195.58 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8675d1cd-b539-4cf7-81cf-b49ca9499b42")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -14288,7 +14998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 386.08 24.4348 0)
 			(hide yes)
 			(show_name no)
@@ -14376,6 +15086,143 @@
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "C24")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CornetPrisme_Library:SN74LVC1G11")
+		(at 213.36 39.37 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbd38223-a89e-486d-84e9-128749443012")
+		(property "Reference" "U33"
+			(at 213.36 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 213.36 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 236.728 54.102 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf"
+			(at 246.38 51.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "AND GATE 3 INPUT 1 CHANNEL"
+			(at 235.712 49.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "X"
+			(at 213.36 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C22046"
+			(at 213.36 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 213.36 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SN74LVC1G11DBVR"
+			(at 213.36 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8dc9cb3b-7c00-4523-ba49-9e12b11fc5be")
+		)
+		(pin "3"
+			(uuid "72f261a7-0e10-444c-a171-72498d31cf62")
+		)
+		(pin "4"
+			(uuid "8c2898e2-d5c6-4409-94d6-cfef17a8405b")
+		)
+		(pin "6"
+			(uuid "b47f3efc-3a02-417e-8b3e-e9c862b47c72")
+		)
+		(pin "5"
+			(uuid "3bcec6db-925b-48f6-b392-791072f44735")
+		)
+		(pin "2"
+			(uuid "d9690b80-4df6-40b1-9e7c-5cb4b7116f71")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "U33")
+					(unit 2)
 				)
 			)
 		)
@@ -14730,7 +15577,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 386.08 214.9348 0)
 			(hide yes)
 			(show_name no)
@@ -15333,7 +16180,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 360.68 137.4648 0)
 			(hide yes)
 			(show_name no)
@@ -15535,7 +16382,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 274.32 24.4348 0)
 			(hide yes)
 			(show_name no)
@@ -15650,7 +16497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 392.43 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15661,7 +16508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 386.08 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -15804,7 +16651,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 386.08 93.0148 0)
 			(hide yes)
 			(show_name no)
@@ -15918,7 +16765,7 @@
 				)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 275.59 265.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15928,7 +16775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 276.86 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -16111,6 +16958,83 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 195.58 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f60773c0-3b35-4fb0-ab32-cb4a32c61131")
+		(property "Reference" "#PWR0161"
+			(at 195.58 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 198.374 23.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 195.58 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f616577-4408-4146-b88b-d73d44ea8055")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -16311,7 +17235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 			(at 21.59 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -16610,7 +17534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 			(at 76.2 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -16715,6 +17639,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 187.96 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbf84b61-084c-4aa9-b700-6acd5440cdca")
+		(property "Reference" "#PWR0160"
+			(at 187.96 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3162df35-a2ae-46c1-be2b-599ad94310b1")
+		)
+		(instances
+			(project "PCB-dyb"
+				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74AUC2G32")
 		(at 123.19 92.71 0)
 		(unit 2)
@@ -16736,7 +17738,7 @@
 				)
 			)
 		)
-		(property "Value" "74AUC2G32"
+		(property "Value" "²"
 			(at 121.92 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16746,7 +17748,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
