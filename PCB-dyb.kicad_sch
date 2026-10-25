@@ -2141,6 +2141,10 @@
 		(uuid "eabb0517-78ff-4774-98f4-44a63cabad3d")
 	)
 	(no_connect
+		(at 177.8 73.66)
+		(uuid "26b1f345-bbb3-4088-9045-a3b6686570d1")
+	)
+	(no_connect
 		(at 177.8 91.44)
 		(uuid "5edfd11f-e62b-49b3-849d-5e76beb1257a")
 	)
@@ -2161,16 +2165,6 @@
 			(type default)
 		)
 		(uuid "042a5181-2449-4283-bf44-31a56985f5f1")
-	)
-	(wire
-		(pts
-			(xy 158.75 73.66) (xy 177.8 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0469c57d-b28d-4eb4-9da7-44e2c2c7abbc")
 	)
 	(wire
 		(pts
@@ -7612,16 +7606,6 @@
 		(pin "D_2" output
 			(at 158.75 76.2 0)
 			(uuid "33ad9f19-48ad-4db4-b145-da7c26996a64")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "D_3" output
-			(at 158.75 73.66 0)
-			(uuid "6c0d9d6c-4628-4719-bdde-88c9e8c7bd3f")
 			(effects
 				(font
 					(size 1.27 1.27)
