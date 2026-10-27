@@ -90,7 +90,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 		(layer "F.Cu")
 		(uuid "00580973-1611-45bb-95c3-2b9bc525f9a3")
-		(at 31.5 100.25)
+		(at 32.1975 34.5275)
 		(descr "SOT, 5 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=171, JEDEC MO-203, variant AA, https://www.jedec.org/document_search?search_api_views_fulltext=MO-203)")
 		(tags "SOT TO_SOT_SMD SC-88A SOT-353 SC-70-5")
 		(property "Reference" "U21"
@@ -541,7 +541,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0194549e-3f0b-4215-85f2-2b4fd65ffffe")
-		(at 33.455 59.545)
+		(at 30.3575 185.235)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C17"
@@ -751,7 +751,7 @@
 	(footprint "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "01dfe3d2-6575-4e92-b35c-6fa8231abdb0")
-		(at 78.3 43.23)
+		(at 179.8625 108.725)
 		(descr "VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f)")
 		(tags "VSSOP SO JEDEC-MO-187-AA Texas_DGK0008A")
 		(property "Reference" "U24"
@@ -1187,7 +1187,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0254ba51-6334-480d-91ff-04b746a8e27b")
-		(at 36.065 39.655)
+		(at 78.7475 138.985)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C27"
@@ -1397,7 +1397,7 @@
 	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "0286f1e9-c7d2-4042-a6d4-1484c49c50ab")
-		(at 70.8 35.75)
+		(at 172.3625 101.245)
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U8"
@@ -1906,7 +1906,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "038f842d-5e09-4591-817b-8dc788f3817d")
-		(at 64 37.515)
+		(at 165.5625 103.01)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
@@ -2323,7 +2323,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0906c3ab-1712-40cd-85ed-34c34ed3564c")
-		(at 72.59 52.145)
+		(at 174.1525 117.64)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C49"
@@ -2533,7 +2533,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0a0f3bc8-634d-4f31-bb72-e9855656eedc")
-		(at 72.59 47.125)
+		(at 174.1525 112.62)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C47"
@@ -2743,7 +2743,7 @@
 	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "0bc9a496-6b5b-4216-a852-7db374088a13")
-		(at 72.75 100.75)
+		(at 73.4475 35.0275)
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U14"
@@ -3252,7 +3252,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1adc1284-80d7-47d8-88f8-309d04591e8a")
-		(at 17.015 122.26)
+		(at 17.7125 56.5375)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -3462,7 +3462,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1ee8b7c0-cdf0-451f-b6ca-d04f6a3b7a63")
-		(at 36.065 29.615)
+		(at 78.7475 128.945)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C22"
@@ -3672,7 +3672,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "21d68bec-f975-4d1a-81ed-6fdc24d97107")
-		(at 44.085 34.635)
+		(at 86.7675 133.965)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C39"
@@ -3882,7 +3882,7 @@
 	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "21f1882e-0c39-498b-8b3b-44c6e08fa1bc")
-		(at 96.275 91.19)
+		(at 96.9725 25.4675)
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U13"
@@ -4391,7 +4391,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 		(layer "F.Cu")
 		(uuid "22fa1f67-e480-4109-b3f2-96fe55cc55f3")
-		(at 31.6625 105.65)
+		(at 32.36 39.9275)
 		(descr "SOT, 5 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=171, JEDEC MO-203, variant AA, https://www.jedec.org/document_search?search_api_views_fulltext=MO-203)")
 		(tags "SOT TO_SOT_SMD SC-88A SOT-353 SC-70-5")
 		(property "Reference" "U22"
@@ -4842,7 +4842,7 @@
 	(footprint "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
 		(layer "F.Cu")
 		(uuid "233ec6a4-fd21-42f1-acda-51730820b3ba")
-		(at 27.25 92.065 90)
+		(at 27.9475 26.3425 90)
 		(descr "Infineon  SG-WLL-2-3, 0.58x0.28x0.15mm, https://www.infineon.com/dgdl/Infineon-SG-WLL-2-3_SPO_PDF-Package-v02_00-EN.pdf?fileId=5546d46271bf4f9201723159ce71239d")
 		(tags "Infineon WLL")
 		(property "Reference" "D4"
@@ -5138,7 +5138,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "23de2a31-59b4-45ed-82c8-a3bcf682d948")
-		(at 40.075 29.615)
+		(at 82.7575 128.945)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C29"
@@ -5348,7 +5348,7 @@
 	(footprint "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "244da4e2-9336-43c2-9878-b9b8c6250aa4")
-		(at 25.205 54.015)
+		(at 67.8875 153.345)
 		(descr "VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f)")
 		(tags "VSSOP SO JEDEC-MO-187-AA Texas_DGK0008A")
 		(property "Reference" "U38"
@@ -5784,7 +5784,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "27c319de-f1a7-4075-91a2-68c838a455c5")
-		(at 40.075 32.125)
+		(at 82.7575 131.455)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C30"
@@ -5994,7 +5994,7 @@
 	(footprint "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 		(layer "F.Cu")
 		(uuid "2ad88731-68b1-4159-84cc-b93a14e9ac0d")
-		(at 48.215 30.36)
+		(at 90.8975 129.69)
 		(descr "R-PDSO-G6, http://www.ti.com/lit/ds/slis144b/slis144b.pdf")
 		(tags "R-PDSO-G6 SC-70-6")
 		(property "Reference" "U6"
@@ -6322,7 +6322,7 @@
 	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "3237db3c-72b7-4e5d-bf89-db9e79c2d926")
-		(at 51.075 23.26)
+		(at 83.525 118.81)
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U41"
@@ -6831,7 +6831,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "364bc4dd-4671-41a5-a4c6-41bb071154f4")
-		(at 44.085 39.655)
+		(at 86.7675 138.985)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C51"
@@ -7041,7 +7041,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "3fdeebc9-88c0-44e7-bb08-851db469266b")
-		(at 31.485 40.01)
+		(at 74.1675 139.34)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U28"
@@ -7446,7 +7446,7 @@
 	(footprint "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
 		(layer "F.Cu")
 		(uuid "3fe4bf24-3881-4ea5-ac8f-3dea1722c7dd")
-		(at 27.25 88.565 90)
+		(at 27.9475 22.8425 90)
 		(descr "Infineon  SG-WLL-2-3, 0.58x0.28x0.15mm, https://www.infineon.com/dgdl/Infineon-SG-WLL-2-3_SPO_PDF-Package-v02_00-EN.pdf?fileId=5546d46271bf4f9201723159ce71239d")
 		(tags "Infineon WLL")
 		(property "Reference" "D2"
@@ -7742,7 +7742,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "3ff89088-00ce-4b73-88b7-cbf998cd4ff4")
-		(at 68.58 42.105)
+		(at 170.1425 107.6)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C38"
@@ -7952,7 +7952,7 @@
 	(footprint "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "40fccbbe-fadb-4576-9844-fcf031346d20")
-		(at 25.205 44.705)
+		(at 67.8875 144.035)
 		(descr "VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f)")
 		(tags "VSSOP SO JEDEC-MO-187-AA Texas_DGK0008A")
 		(property "Reference" "U35"
@@ -8388,7 +8388,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4472ad5a-a49c-4184-a1ed-9ed5ba069eb2")
-		(at 72.59 49.635)
+		(at 174.1525 115.13)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C48"
@@ -8598,7 +8598,7 @@
 	(footprint "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 		(layer "F.Cu")
 		(uuid "4ad204bb-e604-4b6d-9278-b2f73d8df6e8")
-		(at 87.65 99.6)
+		(at 88.3475 33.8775)
 		(descr "R-PDSO-G6, http://www.ti.com/lit/ds/slis144b/slis144b.pdf")
 		(tags "R-PDSO-G6 SC-70-6")
 		(property "Reference" "U16"
@@ -8918,7 +8918,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4b1c6195-6614-41c0-a1b5-55379717bc00")
-		(at 40.075 34.635)
+		(at 82.7575 133.965)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C31"
@@ -9128,7 +9128,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4d44d135-a4e2-45ea-a689-d3238ad0c002")
-		(at 72.59 44.615)
+		(at 174.1525 110.11)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C46"
@@ -9338,7 +9338,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4fc004b9-a661-434f-8b44-efb005f0c1ff")
-		(at 68.58 44.615)
+		(at 170.1425 110.11)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C40"
@@ -9548,7 +9548,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4fea0924-bafa-4c20-b1ac-79f3ebd57a32")
-		(at 20.25 84.38)
+		(at 20.9475 18.6575)
 		(descr "Through hole straight pin header, 1x10, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x10 2.54mm single row")
 		(property "Reference" "J2"
@@ -9929,7 +9929,7 @@
 	(footprint "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 		(layer "F.Cu")
 		(uuid "53d1f060-e7c3-4842-853f-96164824042f")
-		(at 48.215 34.285)
+		(at 90.8975 133.615)
 		(descr "R-PDSO-G6, http://www.ti.com/lit/ds/slis144b/slis144b.pdf")
 		(tags "R-PDSO-G6 SC-70-6")
 		(property "Reference" "U7"
@@ -10257,7 +10257,7 @@
 	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "57dbeb25-f1f3-431b-9669-1dae0bca54d0")
-		(at 34.175 23.26)
+		(at 83.525 104.29)
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U36"
@@ -10766,7 +10766,7 @@
 	(footprint "Package_SO:Texas_DGN0008B_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x3mm_Mask1.88x1.98mm"
 		(layer "F.Cu")
 		(uuid "5b7ad4d6-1ec7-4f68-9f57-ab33091f75dd")
-		(at 25.205 49.36)
+		(at 67.8875 148.69)
 		(descr "Texas DGN0008B VSSOP, 8 Pin (https://www.ti.com/lit/ds/symlink/tps7a4101.pdf)")
 		(tags "Texas VSSOP SO")
 		(property "Reference" "U37"
@@ -11243,7 +11243,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5c41ecfd-d5b6-401b-8972-fc7ae7ba2d96")
-		(at 103.045 39.545)
+		(at 271.5 116.01)
 		(descr "Through hole straight pin header, 1x10, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x10 2.54mm single row")
 		(property "Reference" "J1"
@@ -11624,7 +11624,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5d590c97-2883-4a2f-a0c8-684216392882")
-		(at 33.5 103.5 180)
+		(at 34.1975 37.7775 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
@@ -11834,7 +11834,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5db8bd39-197f-4490-92f5-a9f94e35ba7c")
-		(at 36.065 34.635)
+		(at 78.7475 133.965)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C24"
@@ -12044,7 +12044,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "6182df37-f3e9-40db-aabf-d5e63b245d35")
-		(at 64 46.765)
+		(at 165.5625 112.26)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U4"
@@ -12461,7 +12461,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "635628fd-203c-4686-a724-ba4d3773c687")
-		(at 44.085 37.145)
+		(at 86.7675 136.475)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C50"
@@ -12671,7 +12671,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "66f445f7-720a-428e-bdfd-420edca335ff")
-		(at 36.065 37.145)
+		(at 78.7475 136.475)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C25"
@@ -12881,7 +12881,7 @@
 	(footprint "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
 		(layer "F.Cu")
 		(uuid "6ae387d8-afeb-49bb-982a-93850b4971e6")
-		(at 27.25 101.5 90)
+		(at 27.9475 35.7775 90)
 		(descr "Infineon  SG-WLL-2-3, 0.58x0.28x0.15mm, https://www.infineon.com/dgdl/Infineon-SG-WLL-2-3_SPO_PDF-Package-v02_00-EN.pdf?fileId=5546d46271bf4f9201723159ce71239d")
 		(tags "Infineon WLL")
 		(property "Reference" "D8"
@@ -13177,7 +13177,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6d59be8a-00b7-481c-9fc1-295789bc78ed")
-		(at 17.025 114.25)
+		(at 17.7225 48.5275)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -13387,7 +13387,7 @@
 	(footprint "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "74cf5f1b-578d-473c-a320-d733db49c1e2")
-		(at 25.205 35.395)
+		(at 67.8875 134.725)
 		(descr "VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f)")
 		(tags "VSSOP SO JEDEC-MO-187-AA Texas_DGK0008A")
 		(property "Reference" "U31"
@@ -13823,7 +13823,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "7550f1a9-8cc6-41ff-a218-1826e752b8c2")
-		(at 56.1125 91.8)
+		(at 56.81 26.0775)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U19"
@@ -14233,7 +14233,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7df13344-593d-42c4-877a-c2c59c9f263f")
-		(at 72.59 42.105)
+		(at 174.1525 107.6)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C45"
@@ -14443,7 +14443,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "81d14c95-e0e1-48f5-8269-f57636f5e1ef")
-		(at 21.025 114.73)
+		(at 21.7225 49.0075)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C8"
@@ -14653,7 +14653,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "82164a0a-f83c-426c-8f9d-35e19f3dc767")
-		(at 17.015 124.77)
+		(at 17.7125 59.0475)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -14863,7 +14863,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8a789f65-35ff-490c-8d58-24db2fb099cd")
-		(at 33.25 98)
+		(at 33.9475 32.2775)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
@@ -15073,7 +15073,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8c241bfd-6d37-4ee6-bd3b-14b0f5db8d78")
-		(at 36.065 42.165)
+		(at 78.7475 141.495)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C28"
@@ -15283,7 +15283,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "93f31d15-4aa7-4edf-986f-df23b5d3fa38")
-		(at 36.065 32.125)
+		(at 78.7475 131.455)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C23"
@@ -15493,7 +15493,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "947722c0-52a1-4506-864f-29864bb1647c")
-		(at 31.485 35.385)
+		(at 74.1675 134.715)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U11"
@@ -15910,7 +15910,7 @@
 	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "94985ac4-d909-46bb-8375-a880c6fc686e")
-		(at 42.625 23.26)
+		(at 72.225 118.27)
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U39"
@@ -16419,7 +16419,7 @@
 	(footprint "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "96a6ce9a-2cd2-4180-8b18-ad2a1c48b651")
-		(at 78.3 52.54)
+		(at 179.8625 118.035)
 		(descr "VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f)")
 		(tags "VSSOP SO JEDEC-MO-187-AA Texas_DGK0008A")
 		(property "Reference" "U27"
@@ -16855,7 +16855,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "9a30bf3b-feef-4437-b190-a978c098cd2f")
-		(at 64 42.14)
+		(at 165.5625 107.635)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U3"
@@ -17272,7 +17272,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "9ae2b2cf-dfc6-4ff7-aea0-691154307545")
-		(at 31.485 49.26)
+		(at 74.1675 148.59)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U33"
@@ -17689,7 +17689,7 @@
 	(footprint "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "9ba4574b-af02-4fee-8935-467d70edbc63")
-		(at 25.205 30.74)
+		(at 67.8875 130.07)
 		(descr "VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f)")
 		(tags "VSSOP SO JEDEC-MO-187-AA Texas_DGK0008A")
 		(property "Reference" "U30"
@@ -18125,7 +18125,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a454bfa7-6726-4122-a1c2-740a1eef81e7")
-		(at 68.58 54.655)
+		(at 170.1425 120.15)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C44"
@@ -18335,7 +18335,7 @@
 	(footprint "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
 		(layer "F.Cu")
 		(uuid "a4e6dba5-3baa-4990-aaa5-13570023d05a")
-		(at 27.25 90.25 90)
+		(at 27.9475 24.5275 90)
 		(descr "Infineon  SG-WLL-2-3, 0.58x0.28x0.15mm, https://www.infineon.com/dgdl/Infineon-SG-WLL-2-3_SPO_PDF-Package-v02_00-EN.pdf?fileId=5546d46271bf4f9201723159ce71239d")
 		(tags "Infineon WLL")
 		(property "Reference" "D3"
@@ -18631,7 +18631,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a70a181e-33f1-4444-8733-bd2c7889d51c")
-		(at 21.025 124.77)
+		(at 21.7225 59.0475)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C12"
@@ -18841,7 +18841,7 @@
 	(footprint "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
 		(layer "F.Cu")
 		(uuid "a7a409be-dd8f-4e0b-88b7-6d8f054d6fa2")
-		(at 27.25 99.25 90)
+		(at 27.9475 33.5275 90)
 		(descr "Infineon  SG-WLL-2-3, 0.58x0.28x0.15mm, https://www.infineon.com/dgdl/Infineon-SG-WLL-2-3_SPO_PDF-Package-v02_00-EN.pdf?fileId=5546d46271bf4f9201723159ce71239d")
 		(tags "Infineon WLL")
 		(property "Reference" "D7"
@@ -19137,7 +19137,7 @@
 	(footprint "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 		(layer "F.Cu")
 		(uuid "ab29fce3-121f-439f-abe5-0dbda8563eb5")
-		(at 84.13 46.775)
+		(at 185.6925 112.27)
 		(descr "R-PDSO-G6, http://www.ti.com/lit/ds/slis144b/slis144b.pdf")
 		(tags "R-PDSO-G6 SC-70-6")
 		(property "Reference" "U23"
@@ -19465,7 +19465,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "ad859c2b-4b03-42dc-9c40-f465a68f7341")
-		(at 104.6125 99.55)
+		(at 105.31 33.8275)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U12"
@@ -19875,7 +19875,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ae1860bf-fe36-46f8-a7bc-d6e542ee8e8a")
-		(at 33.455 62.055)
+		(at 30.3575 187.745)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C37"
@@ -20085,7 +20085,7 @@
 	(footprint "Button_Switch_SMD:SW_SPDT_Shouhan_MSK12C02"
 		(layer "F.Cu")
 		(uuid "aeef91f9-99bf-4f49-9a0e-792eb45adf2f")
-		(at 26.475 61.665)
+		(at 23.3775 187.355)
 		(descr "SPDT Surface Mount Slide Switch, right-angle, https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_SHOU-HAN-MSK12C02_C431540.pdf")
 		(tags "MSK-12C02 MSK12C02 MSK12C02-HB")
 		(property "Reference" "SW1"
@@ -20499,7 +20499,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "af65d97c-9c9a-4227-ab18-6b73ac14c9c7")
-		(at 68.58 49.635)
+		(at 170.1425 115.13)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C42"
@@ -20709,7 +20709,7 @@
 	(footprint "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 		(layer "F.Cu")
 		(uuid "b3083cd8-1f2f-4dd5-babb-796a7658cd0e")
-		(at 84.13 42.85)
+		(at 185.6925 108.345)
 		(descr "R-PDSO-G6, http://www.ti.com/lit/ds/slis144b/slis144b.pdf")
 		(tags "R-PDSO-G6 SC-70-6")
 		(property "Reference" "U5"
@@ -21037,7 +21037,7 @@
 	(footprint "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
 		(layer "F.Cu")
 		(uuid "b3e9c47c-3556-4eb4-a922-5f0fdc74ef2b")
-		(at 19.565 71)
+		(at 16.4675 196.69)
 		(descr "Infineon  SG-WLL-2-3, 0.58x0.28x0.15mm, https://www.infineon.com/dgdl/Infineon-SG-WLL-2-3_SPO_PDF-Package-v02_00-EN.pdf?fileId=5546d46271bf4f9201723159ce71239d")
 		(tags "Infineon WLL")
 		(property "Reference" "D1"
@@ -21333,7 +21333,7 @@
 	(footprint "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
 		(layer "F.Cu")
 		(uuid "b724e75a-bc7d-4949-bd86-9ef28d253e92")
-		(at 27.25 97.065 90)
+		(at 27.9475 31.3425 90)
 		(descr "Infineon  SG-WLL-2-3, 0.58x0.28x0.15mm, https://www.infineon.com/dgdl/Infineon-SG-WLL-2-3_SPO_PDF-Package-v02_00-EN.pdf?fileId=5546d46271bf4f9201723159ce71239d")
 		(tags "Infineon WLL")
 		(property "Reference" "D6"
@@ -21629,7 +21629,7 @@
 	(footprint "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
 		(layer "F.Cu")
 		(uuid "ba16561d-6138-41f7-ad00-025fa6ad82b8")
-		(at 27.25 94 90)
+		(at 27.9475 28.2775 90)
 		(descr "Infineon  SG-WLL-2-3, 0.58x0.28x0.15mm, https://www.infineon.com/dgdl/Infineon-SG-WLL-2-3_SPO_PDF-Package-v02_00-EN.pdf?fileId=5546d46271bf4f9201723159ce71239d")
 		(tags "Infineon WLL")
 		(property "Reference" "D5"
@@ -21925,7 +21925,7 @@
 	(footprint "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 		(layer "F.Cu")
 		(uuid "bba54e36-f247-4f0b-ada9-01d2a3eefe02")
-		(at 50.75 96.75)
+		(at 51.4475 31.0275)
 		(descr "R-PDSO-G6, http://www.ti.com/lit/ds/slis144b/slis144b.pdf")
 		(tags "R-PDSO-G6 SC-70-6")
 		(property "Reference" "U20"
@@ -22245,7 +22245,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "bf5ccf27-10ee-4ea2-b7d6-2fc448635fdf")
-		(at 31.485 30.76)
+		(at 74.1675 130.09)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U10"
@@ -22662,7 +22662,7 @@
 	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "c81b6f45-bc66-432d-beea-51383dd287b3")
-		(at 79.25 35.75)
+		(at 180.8125 101.245)
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U25"
@@ -23171,7 +23171,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "cac8c5ee-430f-4620-9de4-94ff1e6f0538")
-		(at 68.58 47.125)
+		(at 170.1425 112.62)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C41"
@@ -23381,7 +23381,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d36fc70f-f909-4609-88c1-8a442e4cdde3")
-		(at 68.58 52.145)
+		(at 170.1425 117.64)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C43"
@@ -23591,7 +23591,7 @@
 	(footprint "Package_TO_SOT_SMD:Texas_R-PDSO-G6"
 		(layer "F.Cu")
 		(uuid "d654af2e-5045-4681-97a4-0ac67fbd805d")
-		(at 64.65 96.1)
+		(at 65.3475 30.3775)
 		(descr "R-PDSO-G6, http://www.ti.com/lit/ds/slis144b/slis144b.pdf")
 		(tags "R-PDSO-G6 SC-70-6")
 		(property "Reference" "U18"
@@ -23911,7 +23911,7 @@
 	(footprint "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
 		(layer "F.Cu")
 		(uuid "d9c8b9d1-c281-403e-ba9a-b81d37c7abc6")
-		(at 27.25 103.5 90)
+		(at 27.9475 37.7775 90)
 		(descr "Infineon  SG-WLL-2-3, 0.58x0.28x0.15mm, https://www.infineon.com/dgdl/Infineon-SG-WLL-2-3_SPO_PDF-Package-v02_00-EN.pdf?fileId=5546d46271bf4f9201723159ce71239d")
 		(tags "Infineon WLL")
 		(property "Reference" "D9"
@@ -24207,7 +24207,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "db61de94-2e28-44e7-bf15-afb0f16e618a")
-		(at 17.025 119.01)
+		(at 17.7225 53.2875)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -24417,7 +24417,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "dd52b5c8-f6cb-4aac-8e27-bbf8fbef31bd")
-		(at 17.015 127.28)
+		(at 17.7125 61.5575)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -24627,7 +24627,7 @@
 	(footprint "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "e289bc5f-9dc7-4251-8ce9-50e73e106af8")
-		(at 78.3 47.885)
+		(at 179.8625 113.38)
 		(descr "VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f)")
 		(tags "VSSOP SO JEDEC-MO-187-AA Texas_DGK0008A")
 		(property "Reference" "U26"
@@ -25063,7 +25063,7 @@
 	(footprint "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "e4718932-7ca6-414f-b0cd-9c82bc14774b")
-		(at 25.205 40.05)
+		(at 67.8875 139.38)
 		(descr "VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f)")
 		(tags "VSSOP SO JEDEC-MO-187-AA Texas_DGK0008A")
 		(property "Reference" "U34"
@@ -25499,7 +25499,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e492c786-7b4a-4afd-ac9b-53980c2e7f91")
-		(at 44.085 32.125)
+		(at 86.7675 131.455)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C36"
@@ -25709,7 +25709,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
 		(uuid "e73ff669-4cd9-4be4-99a9-6af84e328045")
-		(at 30.685 67.69)
+		(at 27.5875 193.38)
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U49"
@@ -26163,7 +26163,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e79536c2-972a-4020-8f7a-c6314cbfcea0")
-		(at 40.075 39.655)
+		(at 82.7575 138.985)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C33"
@@ -26373,7 +26373,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "e7be837e-eeb6-4527-9027-900df9b4c8d3")
-		(at 64 32.89)
+		(at 165.5625 98.385)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U1"
@@ -26790,7 +26790,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e7fdefe4-815f-4661-af5b-36778e8aeef1")
-		(at 40.075 42.165)
+		(at 82.7575 141.495)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C34"
@@ -27000,7 +27000,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ec892ab9-2260-48d5-89fd-6432bfdce72a")
-		(at 21.025 122.26)
+		(at 21.7225 56.5375)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C11"
@@ -27210,7 +27210,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ef2a6cfd-56c9-45e6-885e-0056aefb0aaf")
-		(at 40.075 37.145)
+		(at 82.7575 136.475)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C32"
@@ -27420,7 +27420,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f23b92dd-4a3a-48f2-8568-59c194613ada")
-		(at 17.025 116.5)
+		(at 17.7225 50.7775)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -27630,7 +27630,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "f52dd721-3a34-44d3-b50f-9529c5c532af")
-		(at 80.1125 94.55)
+		(at 80.81 28.8275)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U17"
@@ -28040,7 +28040,7 @@
 	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "f6db0eef-aa2f-49e7-9b84-de8a52fe12d8")
-		(at 25.725 23.26)
+		(at 72.025 104.56)
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U9"
@@ -28549,7 +28549,7 @@
 	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "fdb28e82-dd83-4c0a-82c5-528158f3db9a")
-		(at 35.5 91)
+		(at 36.1975 25.2775)
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf)")
 		(tags "SOIC SO")
 		(property "Reference" "U15"
@@ -29058,7 +29058,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "fe59b77f-56af-435d-a9e1-8877b9d2d210")
-		(at 44.085 29.615)
+		(at 86.7675 128.945)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C35"
@@ -29268,7 +29268,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "fee18af0-b54d-4892-baf9-f6f196a5bc58")
-		(at 31.485 44.635)
+		(at 74.1675 143.965)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U32"
@@ -29681,6 +29681,134 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(segment
+		(start 20.9475 28.8175)
+		(end 23.2475 31.1175)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/e1")
+		(uuid "c0bbe9c7-f20b-4f7a-a212-833c283aa61b")
+	)
+	(segment
+		(start 23.2475 31.1175)
+		(end 27.9475 31.1175)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/e1")
+		(uuid "f00dc42e-5cdd-496c-bf6d-9a2a63517bc7")
+	)
+	(segment
+		(start 20.9475 18.6575)
+		(end 23.9875 18.6575)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/e0")
+		(uuid "f28c960c-f3fa-43d1-8b3a-915646dd58e6")
+	)
+	(segment
+		(start 23.9875 18.6575)
+		(end 27.9475 22.6175)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/e0")
+		(uuid "ff6a3a0c-a7ae-4dac-8ece-eb7b7ce5147a")
+	)
+	(segment
+		(start 20.9475 23.7375)
+		(end 23.3275 26.1175)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/c0")
+		(uuid "02b9f286-a056-4b91-ab42-34fbba5e1319")
+	)
+	(segment
+		(start 23.3275 26.1175)
+		(end 27.9075 26.1175)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/c0")
+		(uuid "2513278c-3776-4383-af4a-e52e9a76049a")
+	)
+	(segment
+		(start 20.9475 33.8975)
+		(end 22.6025 35.5525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/c1")
+		(uuid "091691cb-790c-4650-a2a7-bae1c489b45d")
+	)
+	(segment
+		(start 22.6025 35.5525)
+		(end 27.9475 35.5525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/c1")
+		(uuid "6f9dede7-b9f8-40b7-b434-f0e64f4c727b")
+	)
+	(segment
+		(start 20.9475 26.2775)
+		(end 22.7225 28.0525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/b0")
+		(uuid "4ac67cd6-abc4-4235-abdf-a04144eb7619")
+	)
+	(segment
+		(start 22.7225 28.0525)
+		(end 27.9475 28.0525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/b0")
+		(uuid "741c66f6-e2ac-4eba-aaa3-21f680e33536")
+	)
+	(segment
+		(start 22.0625 37.5525)
+		(end 27.9475 37.5525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/b1")
+		(uuid "48770e3b-2382-4a51-85b1-72c00185b800")
+	)
+	(segment
+		(start 20.9475 36.4375)
+		(end 22.0625 37.5525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/b1")
+		(uuid "4bc08fb9-56d9-4dbd-aab6-b3fbff4c0a55")
+	)
+	(segment
+		(start 20.9475 21.1975)
+		(end 24.0525 24.3025)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/d0")
+		(uuid "824762b0-201d-42ad-a116-be646ea98ea5")
+	)
+	(segment
+		(start 24.0525 24.3025)
+		(end 27.9475 24.3025)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/d0")
+		(uuid "dadea153-0112-4f68-a8f1-912b0851b27f")
+	)
+	(segment
+		(start 22.8925 33.3025)
+		(end 27.9075 33.3025)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/d1")
+		(uuid "1beef9f5-81d8-48bd-bed6-48d4e271370a")
+	)
+	(segment
+		(start 20.9475 31.3575)
+		(end 22.8925 33.3025)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/d1")
+		(uuid "abde13ba-528c-4438-95ed-9b9b3cceb051")
 	)
 	(embedded_fonts no)
 )
