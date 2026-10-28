@@ -2272,12 +2272,6 @@
 		(uuid "dd5bab51-7c8a-4a9a-8542-1b1d91b93efb")
 	)
 	(junction
-		(at 360.68 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e14eb832-e3ee-4267-8276-04584062f2bb")
-	)
-	(junction
 		(at 76.2 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7298,143 +7292,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CornetPrisme_Library:SN74LVC1G11")
-		(at 360.68 105.41 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "404ac1e2-9023-416d-9ded-55769c78462d")
-		(property "Reference" "U28"
-			(at 360.68 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 360.68 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 384.048 120.142 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g11.pdf"
-			(at 393.7 117.602 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "AND GATE 3 INPUT 1 CHANNEL"
-			(at 383.032 115.316 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "X"
-			(at 360.68 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C22046"
-			(at 360.68 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TI"
-			(at 360.68 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "SN74LVC1G11DBVR"
-			(at 360.68 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "806a3bed-a063-4c14-a884-c0fa8f8dda39")
-		)
-		(pin "3"
-			(uuid "9a61c181-72c6-4bba-ae8f-64d1d177c2f6")
-		)
-		(pin "4"
-			(uuid "4f2c49ce-88a2-460f-8c81-732d7fff4db7")
-		)
-		(pin "6"
-			(uuid "77de3285-062c-4492-95c9-c886244d56c4")
-		)
-		(pin "5"
-			(uuid "92ea580e-ea4a-40e0-8d5c-92f0ecd08cd3")
-		)
-		(pin "2"
-			(uuid "7a7f290a-62ed-4a38-a4ea-7db071a960ea")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "U28")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 327.66 138.43 0)
 		(unit 1)
@@ -10019,131 +9876,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 356.87 92.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6471b2a7-2429-4977-b0c4-e06acf846ebc")
-		(property "Reference" "C31"
-			(at 352.044 91.186 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 350.7741 89.408 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 360.68 91.7448 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 356.87 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "Y"
-			(at 356.87 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C1591"
-			(at 356.87 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 356.87 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
-			(at 356.87 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9233d6b7-4e10-43bf-a58e-2abf7800c108")
-		)
-		(pin "1"
-			(uuid "d09e6d37-b001-4ed3-98e8-8724662c1e0f")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 378.46 176.53 0)
 		(unit 1)
@@ -10962,84 +10694,6 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 360.68 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "716ed972-4af0-4997-84d7-2c4a5d830a06")
-		(property "Reference" "#PWR093"
-			(at 360.68 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 360.68 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 360.68 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 360.68 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "62465e37-865e-4175-be03-ae6133373ce9")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -12456,84 +12110,6 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "U41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 353.06 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8efd2fbb-b833-4475-a3e8-4763b886d3eb")
-		(property "Reference" "#PWR091"
-			(at 353.06 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 353.06 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 353.06 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 353.06 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b643c37b-743b-4655-9c73-6033c5ea912b")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -15201,22 +14777,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "8dc9cb3b-7c00-4523-ba49-9e12b11fc5be")
+			(uuid "8dc9cb3b-7c00-4523-ba49-9e12b11fc5bf")
 		)
 		(pin "3"
-			(uuid "72f261a7-0e10-444c-a171-72498d31cf62")
+			(uuid "72f261a7-0e10-444c-a171-72498d31cf63")
 		)
 		(pin "4"
-			(uuid "8c2898e2-d5c6-4409-94d6-cfef17a8405b")
+			(uuid "8c2898e2-d5c6-4409-94d6-cfef17a8405c")
 		)
 		(pin "6"
-			(uuid "b47f3efc-3a02-417e-8b3e-e9c862b47c72")
+			(uuid "b47f3efc-3a02-417e-8b3e-e9c862b47c73")
 		)
 		(pin "5"
-			(uuid "3bcec6db-925b-48f6-b392-791072f44735")
+			(uuid "3bcec6db-925b-48f6-b392-791072f4473a")
 		)
 		(pin "2"
-			(uuid "d9690b80-4df6-40b1-9e7c-5cb4b7116f71")
+			(uuid "d9690b80-4df6-40b1-9e7c-5cb4b7116f76")
 		)
 		(instances
 			(project "PCB-dyb"
@@ -16267,83 +15843,6 @@
 			(project "PCB-dyb"
 				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 360.68 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0b59ca8-1463-4f28-87ec-b5fc1496cd5f")
-		(property "Reference" "#PWR092"
-			(at 360.68 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 363.474 89.408 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 360.68 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 360.68 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9da51ca8-66fa-4673-b055-0e62d53bab21")
-		)
-		(instances
-			(project "PCB-dyb"
-				(path "/14e8619a-6057-40b5-87f2-cdde3077dc07/437bee23-179c-4ad3-bdf0-0866e4f50ea6"
-					(reference "#PWR092")
 					(unit 1)
 				)
 			)
